@@ -1,0 +1,1196 @@
+[
+  {
+    "question": "What challenges do current large language models encounter?",
+    "answer": "Current large language models encounter challenges like hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes.",
+    "source": "data/papers\\Retrieval-Augmented Generation for Large Language Models- A Survey.pdf",
+    "chunk_text": "sive capabilities but encounter challenges like hallucination,\noutdated knowledge, and non-transparent, untraceable reasoning\nprocesses. Retrieval-Augmented Generation (RAG) has emerged\nas a promising solution by incorporating knowledge from external\ndatabases. This enhances the accuracy and credibility of the\ngeneration, particularly for knowledge-intensive tasks, and allows\nfor continuous knowledge updates and integration of domain-\nspecific information. RAG synergistically merges LLMs\u2019 intrin"
+  },
+  {
+    "question": "What is the year of publication for the paper 'XLA: Compiling machine learning for peak performance'?",
+    "answer": "2020",
+    "source": "data/papers\\FlashAttention.pdf",
+    "chunk_text": "53\u201368, 2021.\n[75] Amit Sabne. XLA: Compiling machine learning for peak performance. 2020.\n[76] Victor Sanh, Thomas Wolf, and Alexander M Rush. Movement pruning: Adaptive sparsity by \ufb01ne-tuning.\narXiv preprint arXiv:2005.07683, 2020.\n[77] Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, and Bryan Catanzaro.\nMegatron-LM: Training multi-billion parameter language models using model parallelism.arXiv preprint\narXiv:1909.08053, 2019."
+  },
+  {
+    "question": "On which tasks do we compare the per-token likelihood?",
+    "answer": "For most tasks we compare the per-token likelihood.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "(or forK = 0, instead of) demonstrations.\nOn tasks that involve choosing one correct completion from several options (multiple choice), we provideK examples\nof context plus correct completion, followed by one example of context only, and compare the LM likelihood of\neach completion. For most tasks we compare the per-token likelihood (to normalize for length), however on a small\nnumber of datasets (ARC, OpenBookQA, and RACE) we gain additional bene\ufb01t as measured on the development set"
+  },
+  {
+    "question": "What shape is the earth?",
+    "answer": "The earth is a sphere.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "closed qa Answer the following question:\nWhat shape is the earth?\nA) A circle\nB) A sphere\nC) An ellipse\nD) A plane\nclosed qa Tell me how hydrogen and helium are different, using the following facts:\n{list of facts}\nopen qa I am a highly intelligent question answering bot. If you ask me a question that\nis rooted in truth, I will give you the answer. If you ask me a question that is\nnonsense, trickery, or has no clear answer, I will respond with \"Unknown\"."
+  },
+  {
+    "question": "What is the main goal of the Ragas suite of metrics?",
+    "answer": "To evaluate different dimensions of LLMs without relying on ground truth human annotations.",
+    "source": "data/papers\\Ragas.pdf",
+    "chunk_text": "identify relevant and focused context passages,\nthe ability of the LLM to exploit such passages\nin a faithful way, or the quality of the genera-\ntion itself. With Ragas, we put forward a suite\nof metrics which can be used to evaluate these\ndifferent dimensions without having to rely on\nground truth human annotations. We posit that\nsuch a framework can crucially contribute to\nfaster evaluation cycles of RAG architectures,\nwhich is especially important given the fast\nadoption of LLMs.\n1 Introducti"
+  },
+  {
+    "question": "What is the purpose of running model C for each segment yt \u2208 y?",
+    "answer": "To assess whether additional passages could help to enhance generation.",
+    "source": "data/papers\\SelfRAG.pdf",
+    "chunk_text": "y using the retrieval and critic models to create supervised data that precisely mimics the SELF -\nRAG inference-time process (Section 3.1). For each segment yt \u2208 y, we run C to assess whether\nadditional passages could help to enhance generation. If retrieval is required, the retrieval special\ntoken Retrieve =Yes is added, and R retrieves the top K passages, D. For each passage, C further\nevaluates whether the passage is relevant and predicts ISREL . If a passage is relevant, C further"
+  },
+  {
+    "question": "What is one path forward for training AI models?",
+    "answer": "Training models that can be conditioned on the preferences of certain groups, or that can be easily fine-tuned or prompted to represent different groups.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "process more participatory; it is impossible that one can train a system that is aligned to everyone\u2019s\npreferences at once, or where everyone would endorse the tradeoffs.\nOne path forward could be to train models that can be conditioned on the preferences of certain\ngroups, or that can be easily \ufb01ne-tuned or prompted to represent different groups. Different models\ncan then be deployed and used by groups who endorse different values. However, these models might"
+  },
+  {
+    "question": "How many times smaller is LLaMA-13B compared to GPT-3?",
+    "answer": "10 times smaller",
+    "source": "data/papers\\LLaMa.pdf",
+    "chunk_text": "LLaMA-13B outperforms GPT-3 on most bench-\nmarks, despite being 10\u00d7 smaller. We believe that\nthis model will help democratize the access and\nstudy of LLMs, since it can be run on a single GPU.\nAt the higher-end of the scale, our 65B-parameter\nmodel is also competitive with the best large lan-\nguage models such as Chinchilla or PaLM-540B.\nUnlike Chinchilla, PaLM, or GPT-3, we only\nuse publicly available data, making our work com-\npatible with open-sourcing, while most existing"
+  },
+  {
+    "question": "In which year was the paper 'Rethinking attention with performers' published?",
+    "answer": "2020",
+    "source": "data/papers\\FlashAttention.pdf",
+    "chunk_text": "[12] Krzysztof Marcin Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song, Andreea Gane,\nTamas Sarlos, Peter Hawkins, Jared Quincy Davis, Afroz Mohiuddin, Lukasz Kaiser, et al. Rethinking\nattention with performers. InInternational Conference on Learning Representations (ICLR), 2020.\n[13] Xiang Dai, Ilias Chalkidis, Sune Darkner, and Desmond Elliott. Revisiting transformer-based models for\nlong document classi\ufb01cation.arXiv preprint arXiv:2204.06683, 2022."
+  },
+  {
+    "question": "What is the granularity of retrieval on the Knowledge Graph (KG)?",
+    "answer": "The granularity of retrieval on the Knowledge Graph (KG) includes Entity, Triplet, and sub-Graph.",
+    "source": "data/papers\\Retrieval-Augmented Generation for Large Language Models- A Survey.pdf",
+    "chunk_text": "factual segment and presented in a concise, self-contained nat-\nural language format. This approach aims to enhance retrieval\nprecision and relevance. On the Knowledge Graph (KG),\nretrieval granularity includes Entity, Triplet, and sub-Graph.\nThe granularity of retrieval can also be adapted to downstream\ntasks, such as retrieving Item IDs [40]in recommendation tasks\nand Sentence pairs [38]. Detailed information is illustrated in\nTable I.\nB. Indexing Optimization"
+  },
+  {
+    "question": "What is the year of the arXiv preprint arXiv:1905.07830?",
+    "answer": "2019",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "really \ufb01nish your sentence? arXiv preprint arXiv:1905.07830, 2019.\n[ZHR+19] Rowan Zellers, Ari Holtzman, Hannah Rashkin, Yonatan Bisk, Ali Farhadi, Franziska Roesner, and Yejin\nChoi. Defending against neural fake news. arXiv preprint arXiv:1905.12616, 2019.\n[ZLL+18] Sheng Zhang, Xiaodong Liu, Jingjing Liu, Jianfeng Gao, Kevin Duh, and Benjamin Van Durme.\nReCoRD: Bridging the gap between human and machine commonsense reading comprehension. arXiv\npreprint arXiv:1810.12885, 2018."
+  },
+  {
+    "question": "What type of task is the example given in the text?",
+    "answer": "A word analogy task.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "the SAT college entrance exam before 2005. A typical example is \u201caudacious is to boldness as (a) sanctimonious is to\nhypocrisy, (b) anonymous is to identity, (c) remorseful is to misdeed, (d) deleterious is to result, (e) impressionable is to\ntemptation\u201d. The student is expected to choose which of the \ufb01ve word pairs has the same relationship as the original\nword pair; in this example the answer is \u201csanctimonious is to hypocrisy\u201d. On this task GPT-3 achieves 65.2% in the"
+  },
+  {
+    "question": "What was the outcome of increasing the pre-trained bi-LM size from two to four layers?",
+    "answer": "Mixed results were observed on the downstream task.",
+    "source": "data/papers\\BERT.pdf",
+    "chunk_text": "mixed results on the downstream task impact of\nincreasing the pre-trained bi-LM size from two\nto four layers and Melamud et al. (2016) men-\ntioned in passing that increasing hidden dimen-\nsion size from 200 to 600 helped, but increasing\nfurther to 1,000 did not bring further improve-\nments. Both of these prior works used a feature-\nbased approach \u2014 we hypothesize that when the\nmodel is \ufb01ne-tuned directly on the downstream\ntasks and uses only a very small number of ran-"
+  },
+  {
+    "question": "What happens to latency when using adapters in a generic scenario without model parallelism?",
+    "answer": "There is a noticeable increase in latency.",
+    "source": "data/papers\\LoRA.pdf",
+    "chunk_text": "parallelism to keep the latency low, and adapter layers have to be processed sequentially. This makes\na difference in the online inference setting where the batch size is typically as small as one. In a\ngeneric scenario without model parallelism, such as running inference on GPT-2 (Radford et al., b)\nmedium on a single GPU, we see a noticeable increase in latency when using adapters, even with a\nvery small bottleneck dimension (Table 1)."
+  },
+  {
+    "question": "What does a 'sentence' refer to in the context of this work?",
+    "answer": "An arbitrary span of contiguous text, rather than an actual linguistic sentence.",
+    "source": "data/papers\\BERT.pdf",
+    "chunk_text": "Input/Output Representations To make BERT\nhandle a variety of down-stream tasks, our input\nrepresentation is able to unambiguously represent\nboth a single sentence and a pair of sentences\n(e.g.,\u27e8 Question, Answer\u27e9) in one token sequence.\nThroughout this work, a \u201csentence\u201d can be an arbi-\ntrary span of contiguous text, rather than an actual\nlinguistic sentence. A \u201csequence\u201d refers to the in-\nput token sequence to BERT, which may be a sin-\ngle sentence or two sentences packed together."
+  },
+  {
+    "question": "What approach is used to fine-tune language models in this research?",
+    "answer": "Reinforcement learning from human feedback (RLHF).",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "help the user solve their task), honest (they shouldn\u2019t fabricate information or mislead the user), and\nharmless (they should not cause physical, psychological, or social harm to people or the environment).\nWe elaborate on the evaluation of these criteria in Section 3.6.\nWe focus on \ufb01ne-tuning approaches to aligning language models. Speci\ufb01cally, we use reinforcement\nlearning from human feedback (RLHF; Christiano et al., 2017; Stiennon et al., 2020) to \ufb01ne-tune"
+  },
+  {
+    "question": "What is the URL of the paper 'Adam: A method for stochastic optimization'?",
+    "answer": "http://arxiv.org/abs/1412.6980",
+    "source": "data/papers\\RAG.pdf",
+    "chunk_text": "Learning Representations, 2020. URL https://openreview.net/forum?id=HklBjCEKvH.\n[28] Diederik P. Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In Yoshua\nBengio and Yann LeCun, editors, 3rd International Conference on Learning Representations,\nICLR 2015, San Diego, CA, USA, May 7-9, 2015, Conference Track Proceedings, 2015. URL\nhttp://arxiv.org/abs/1412.6980.\n[29] Tom Kwiatkowski, Jennimaria Palomaki, Olivia Red\ufb01eld, Michael Collins, Ankur Parikh,"
+  },
+  {
+    "question": "How many parameters does the model have?",
+    "answer": "17 billion",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "and \ufb01nally 17 billion parameters [Tur20]. Each increase has brought improvements in text synthesis and/or downstream\nNLP tasks, and there is evidence suggesting that log loss, which correlates well with many downstream tasks, follows a\nsmooth trend of improvement with scale [KMH+20]. Since in-context learning involves absorbing many skills and\ntasks within the parameters of the model, it is plausible that in-context learning abilities might show similarly strong\ngains with scale."
+  },
+  {
+    "question": "What are the two potential benefits of successful multi-task learning?",
+    "answer": "It could allow a single model to be used for many tasks without updating the weights, or improve sample efficiency when updating the weights for a new task.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "each one. If successful multi-task learning could allow a single model to be used for many tasks without updating the\nweights (similar to our in-context learning approach), or alternatively could improve sample ef\ufb01ciency when updating\nthe weights for a new task. Multi-task learning has shown some promising initial results [ LGH+15, LSP+18] and\nmulti-stage \ufb01ne-tuning has recently become a standardized part of SOTA results on some datasets [PFB18] and pushed"
+  },
+  {
+    "question": "What type of tasks were found to be instances of real reversals or unscramblings in the training set?",
+    "answer": "They were not typically instances of real reversals or unscramblings, but rather palindromes or trivial unscramblings.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "overlaps, we found that they were not typically instances of real reversals or unscramblings in the training set,\nbut rather palindromes or trivial unscramblings, e.g \u201c kayak = kayak \u201d. The amount of overlap was small,\nbut removing the trivial tasks lead to an increase in dif\ufb01culty and thus a spurious signal. Related to this, the\nsymbol insertion task shows high overlap but no effect on performance \u2013 this is because that task involves"
+  },
+  {
+    "question": "What are the two varieties of reflection tokens introduced by Self-RAG?",
+    "answer": "The two varieties of reflection tokens are 'retrieve' and 'critic'.",
+    "source": "data/papers\\Retrieval-Augmented Generation for Large Language Models- A Survey.pdf",
+    "chunk_text": "12\nprobability of generated terms [24]. When the probability falls\nbelow a certain threshold would activates the retrieval system\nto collect relevant information, thus optimizing the retrieval\ncycle. Self-RAG [25] introduces \u201creflection tokens\u201d that allow\nthe model to introspect its outputs. These tokens come in\ntwo varieties: \u201cretrieve\u201d and \u201ccritic\u201d. The model autonomously\ndecides when to activate retrieval, or alternatively, a predefined\nthreshold may trigger the process. During retrieval, the"
+  },
+  {
+    "question": "What optimization algorithm is used for model optimization?",
+    "answer": "Adam",
+    "source": "data/papers\\LoRA.pdf",
+    "chunk_text": "query/key/value/output projection matrices in the self-attention module. W or W0 refers to a pre-\ntrained weight matrix and \u2206W its accumulated gradient update during adaptation. We use r to\ndenote the rank of a LoRA module. We follow the conventions set out by (Vaswani et al., 2017;\nBrown et al., 2020) and use Adam (Loshchilov & Hutter, 2019; Kingma & Ba, 2017) for model\noptimization and use a Transformer MLP feedforward dimension dffn = 4\u00d7 dmodel.\n2 P ROBLEM STATEMENT"
+  },
+  {
+    "question": "What is the definition of 'true' considered by Lin et al. in the TruthfulQA model?",
+    "answer": "Literal truth about the real world.",
+    "source": "data/papers\\LLaMa.pdf",
+    "chunk_text": "gotcha examples, clearly showing that it capture\nsocietal biases related to gender and occupation.\nThe drop of performance exists for \u201cher/her/she\u201d\nand \u201chis/him/he\u201d pronouns, which is indicative of\nbiases regardless of gender.\n5.4 TruthfulQA\nTruthfulQA (Lin et al., 2021) aims to measure the\ntruthfulness of a model, i.e., its ability to identify\nwhen a claim is true. Lin et al. (2021) consider\nthe de\ufb01nition of \u201ctrue\u201d in the sense of \u201cliteral truth\nabout the real world\u201d, and not claims that are on"
+  },
+  {
+    "question": "What is the name of the figure that shows the evolution of performance on question answering and common sense reasoning during training?",
+    "answer": "Figure 2",
+    "source": "data/papers\\LLaMa.pdf",
+    "chunk_text": "LLaMA 7B\nLLaMA 13B\nLLaMA 33B\nLLaMA 65B\nChinchilla\nFigure 2: Evolution of performance on question answering and common sense reasoning during training.\n5.1 RealToxicityPrompts\nLanguage models can generate toxic language, e.g.,\ninsults, hate speech or threats. There is a very large\nrange of toxic content that a model can generate,\nmaking a thorough evaluation challenging. Several\nrecent work (Zhang et al., 2022; Hoffmann et al.,\n2022) have considered the RealToxicityPrompts"
+  },
+  {
+    "question": "Where was the 2017 Conference on Empirical Methods in Natural Language Processing held?",
+    "answer": "Copenhagen, Denmark",
+    "source": "data/papers\\BERT.pdf",
+    "chunk_text": "Barrault, and Antoine Bordes. 2017. Supervised\nlearning of universal sentence representations from\nnatural language inference data. In Proceedings of\nthe 2017 Conference on Empirical Methods in Nat-\nural Language Processing, pages 670\u2013680, Copen-\nhagen, Denmark. Association for Computational\nLinguistics.\nAndrew M Dai and Quoc V Le. 2015. Semi-supervised\nsequence learning. In Advances in neural informa-\ntion processing systems, pages 3079\u20133087.\nJ. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L."
+  },
+  {
+    "question": "What is the purpose of the list C in the code below?",
+    "answer": "To store the values of the binomial coefficients.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "d\u2019une nuit \u00e9toil\u00e9e \u00e0 l\u2019odeur douce et envo\u00fbtante.\nLa grenouille avance alors d\u2019un pas rapide et aven-\ntureux dans les rues en pente et les petites auberges de\nla ville antique. [...]\nPrompt:\nWhat is the purpose of the list C in the code below?\ndef binomial_coefficient(n, r):\nC = [0 for i in range(r + 1)];\nC[0] = 1;\nfor i in range(1, n + 1):\nj = min(i, r);\nwhile j > 0:\nC[j] += C[j - 1];\nj -= 1;\nreturn C[r]\nGPT-3 175B completion: InstructGPT 175B completion:\nA. to store the value of C[0]"
+  },
+  {
+    "question": "What is the opposite of effective delegation in management leadership?",
+    "answer": "Micromanagement, where a manager provides too much control.",
+    "source": "data/papers\\SelfRAG.pdf",
+    "chunk_text": "is one of the core concepts of management leadership. However, the person who delegated the work remains\naccountable for the outcome of the delegated work. Delegation empowers a subordinate to make decisions, i.e. it\nis a shifting of decision-making authority from one organizational level to a lower one. Delegation, if properly\ndone, is not fabrication. The opposite of effective delegation is micromanagement, where a manager provides too"
+  },
+  {
+    "question": "Do OpenAI's customers represent all potential or current users of language models?",
+    "answer": "No, they are not representative of all potential or current users of language models.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "and their end users may disagree or customers may not be optimizing for end users\u2019 well-being; for\nexample, a customer may want a model that maximizes the amount of time a user spends on their\nplatform, which is not necessarily what end-users want. In practice, our labelers don\u2019t have visibility\ninto the contexts in which a given prompt or completion will be seen.\nFourth, OpenAI\u2019s customers are not representative of all potential or current users of language"
+  },
+  {
+    "question": "What type of instruction-following model would combine both types of datasets?",
+    "answer": "The broadest type instruction-following model would combine both types of datasets.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "interested in using). Of course, tasks found in NLP datasets do represent a kind of instruction that\nwe would like language models to be able to solve, so the broadest type instruction-following model\nwould combine both types of datasets.\n4.2 Results on public NLP datasets\nInstructGPT models show improvements in truthfulness over GPT-3. As measured by human\nevaluatoins on the TruthfulQA dataset, our PPO models show small but signi\ufb01cant improvements"
+  },
+  {
+    "question": "When did we find significant discussion of misuse following the initial release of GPT-2?",
+    "answer": "In the spring of 2019.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "groups where misinformation tactics, malware distribution, and computer fraud are frequently discussed. While we did\n\ufb01nd signi\ufb01cant discussion of misuse following the initial release of GPT-2 in spring of 2019, we found fewer instances\nof experimentation and no successful deployments since then. Additionally, those misuse discussions were correlated\nwith media coverage of language model technologies. From this, we assess that the threat of misuse from these actors is"
+  },
+  {
+    "question": "What is the performance of Mixtral on the MBPP task?",
+    "answer": "Mixtral achieves 49.8%, 52.2%, and 60.7% performance on the MBPP task.",
+    "source": "data/papers\\Mixtral of Experts.pdf",
+    "chunk_text": "LLaMA 2 70B GPT-3.5 Mixtral 8x7B\nMMLU\n(MCQ in 57 subjects) 69.9% 70.0% 70.6%\nHellaSwag\n(10-shot) 87.1% 85.5% 86.7%\nARC Challenge\n(25-shot) 85.1% 85.2% 85.8%\nWinoGrande\n(5-shot) 83.2% 81.6% 81.2%\nMBPP\n(pass@1) 49.8% 52.2% 60.7%\nGSM-8K\n(5-shot) 53.6% 57.1% 58.4%\nMT Bench\n(for Instruct Models) 6.86 8.32 8.30\nTable 3: Comparison of Mixtral with Llama 2 70B and GPT-3.5. Mixtral outperforms or matches Llama 2\n70B and GPT-3.5 performance on most metrics."
+  },
+  {
+    "question": "Which datasets did chain-of-thought prompting not improve for GPT-3?",
+    "answer": "CSQA and StrategyQA.",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "\u2022 Different language models. Another interesting question is whether certain prompts that work\nbetter for one model work better for other large language models. We \ufb01nd that with the same\nprompts, chain-of-thought prompting improves performance across all three models (LaMDA,\nGPT-3, and PaLM) for all datasets except CSQA and StrategyQA for GPT-3 (Table 1, Table 4,\nTable 5). The fact that gains from chain of thought did not transfer perfectly among models is"
+  },
+  {
+    "question": "Where was the meeting of the Association for Computational Linguistics held in 2019?",
+    "answer": "Florence, Italy",
+    "source": "data/papers\\RAG.pdf",
+    "chunk_text": "Meeting of the Association for Computational Linguistics, pages 3044\u20133049, Florence, Italy,\nJuly 2019. Association for Computational Linguistics. doi: 10.18653/v1/P19-1291. URL\nhttps://www.aclweb.org/anthology/P19-1291.\n[36] Peter J. Liu*, Mohammad Saleh*, Etienne Pot, Ben Goodrich, Ryan Sepassi, Lukasz Kaiser,\nand Noam Shazeer. Generating wikipedia by summarizing long sequences. In International\nConference on Learning Representations, 2018. URL https://openreview.net/forum?\nid=Hyg0vbWC-."
+  },
+  {
+    "question": "What is the accuracy of the BoolQ model on the dev set?",
+    "answer": "The accuracy of the BoolQ model on the dev set is 91.0.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "DROP f1 dev 89.1 20 9.40 13.6 14.4 16.4 19.7 17.0 24.0 23.6 11.7 18.1 20.9 23.0 26.4 27.3 29.2 34.3 12.9 18.7 24.0 25.6 29.7 29.7 32.3 36.5\nBoolQ acc dev 91.0 32 49.7 60.3 58.9 62.4 67.1 65.4 66.2 60.5 52.6 61.7 60.4 63.7 68.4 68.7 69.0 76.7 43.1 60.6 62.0 64.1 70.3 70.0 70.2 77.5 76.4\nCB acc dev 96.9 32 0.00 32.1 8.93 19.6 19.6 28.6 19.6 46.4 55.4 53.6 53.6 48.2 57.1 33.9 55.4 64.3 42.9 58.9 53.6 69.6 67.9 60.7 66.1 82.1 75.6"
+  },
+  {
+    "question": "How does the framework decide when to trigger retrieval?",
+    "answer": "If the probability of generating the Retrieve =Yes token normalized over all output tokens in Retrieve surpasses a designated threshold, or when the framework predicts Retrieve =Yes.",
+    "source": "data/papers\\SelfRAG.pdf",
+    "chunk_text": "Adaptive retrieval with threshold.SELF -RAG dynamically decides when to retrieve text passages by\npredicting Retrieve . Alternatively, our framework allows a threshold to be set. Specifically, if the prob-\nability of generating the Retrieve =Yes token normalized over all output tokens in Retrieve surpasses a\ndesignated threshold, we trigger retrieval (details in Appendix Section A.3).\nTree-decoding with critique tokens. At each segment step t, when retrieval is required, based either"
+  },
+  {
+    "question": "What is the original checkpoint size before adaptation?",
+    "answer": "350GB",
+    "source": "data/papers\\LoRA.pdf",
+    "chunk_text": "350GB. With r = 4 and only the query and value projection matrices being adapted, the checkpoint\nsize is reduced by roughly 10,000\u00d7 (from 350GB to 35MB) 4. This allows us to train with signi\ufb01-\ncantly fewer GPUs and avoid I/O bottlenecks. Another bene\ufb01t is that we can switch between tasks\nwhile deployed at a much lower cost by only swapping the LoRA weights as opposed to all the\nparameters. This allows for the creation of many customized models that can be swapped in and out"
+  },
+  {
+    "question": "What is the default temperature used for open-ended generations with InstructGPT?",
+    "answer": "The default temperature used is 0.7.",
+    "source": "data/papers\\HyDE.pdf",
+    "chunk_text": "and Contriever models (Izacard et al., 2021). We\nsample from InstructGPT using the OpenAI play-\nground default temperature of 0.7 for open-ended\ngenerations. We use the English-onlyContriever\nmodel for English retrieval tasks and multilingual\nmContriever for non-English tasks. We conducted\nretrieval experiments with the Pyserini toolkit (Lin\net al., 2021a).\nDatasets We consider web search query sets\nTREC DL19 (Craswell et al., 2020a) and\nDL20 (Craswell et al., 2020b); they are based on"
+  },
+  {
+    "question": "What alignment technique is used in this approach?",
+    "answer": "RLHF, which stands for Reinforcement Learning from Human Feedback.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "when aligning superhuman systems (Bostrom, 2014). However, our approach does provides us with a\nclear empirical feedback loop of what works and what does not. We believe that this feedback loop is\nessential to re\ufb01ne our alignment techniques, and it forces us to keep pace with progress in machine\nlearning. Moreover, the alignment technique we use here, RLHF, is an important building block in\nseveral proposals to align superhuman systems (Leike et al., 2018; Irving et al., 2018; Christiano"
+  },
+  {
+    "question": "In what year was the novel 'A Farewell to Arms' published?",
+    "answer": "1929",
+    "source": "data/papers\\RAG.pdf",
+    "chunk_text": "Document 1: his works are considered classics of American\nliterature ... His wartime experiences formed the basis for his novel\n\u201dA Farewell to Arms\u201d (1929) ...\nDocument 2: ... artists of the 1920s \u201dLost Generation\u201d expatriate\ncommunity . His debut novel, \u201dThe Sun Also Rises\u201d , was published\nin 1926.\nBOS\n\u201d\nTheSunAlso\nR ises\n\u201d is a\nnovel\nby this\nauthor\nof \u201d A\nFarewellto\nArms\n\u201d\nDoc 1\nDoc 2\nDoc 3\nDoc 4\nDoc 5\nFigure 2: RAG-Token document posteriorp(zi|x,yi,y\u2212i) for each generated token for input \u201cHem"
+  },
+  {
+    "question": "What is a limitation of rationale-augmented training and finetuning methods?",
+    "answer": "It is costly to create a large set of high quality rationales.",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "Both of the above ideas, however, have key limitations. For rationale-augmented training and\n\ufb01netuning methods, it is costly to create a large set of high quality rationales, which is much more\ncomplicated than simple input\u2013output pairs used in normal machine learning. For the traditional few-\nshot prompting method used in Brown et al. (2020), it works poorly on tasks that require reasoning\nabilities, and often does not improve substantially with increasing language model scale (Rae et al.,"
+  },
+  {
+    "question": "What percentage of human assessments found BART to be better than other models in terms of factuality?",
+    "answer": "7.1%",
+    "source": "data/papers\\RAG.pdf",
+    "chunk_text": "Table 4: Human assessments for the Jeopardy\nQuestion Generation Task.\nFactuality Speci\ufb01city\nBART better 7.1% 16.8%\nRAG better 42.7% 37.4%\nBoth good 11.7% 11.8%\nBoth poor 17.7% 6.9%\nNo majority 20.8% 20.1%\nTable 5: Ratio of distinct to total tri-grams for\ngeneration tasks.\nMSMARCO Jeopardy QGen\nGold 89.6% 90.0%\nBART 70.7% 32.4%\nRAG-Token 77.8% 46.8%\nRAG-Seq. 83.5% 53.8%\nTable 6: Ablations on the dev set. As FEVER is a classi\ufb01cation task, both RAG models are equivalent."
+  },
+  {
+    "question": "What percentage of GPT-3's training data is in languages other than English?",
+    "answer": "7%",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "GPT-3\u2019s training data is still primarily English (93% by word count), it also includes 7% of text in other languages.\nThese languages are documented in the supplemental material. In order to better understand translation capability, we\nalso expand our analysis to include two additional commonly studied languages, German and Romanian.\nExisting unsupervised machine translation approaches often combine pretraining on a pair of monolingual datasets"
+  },
+  {
+    "question": "What is one of the biggest open questions in the field?",
+    "answer": "How to design an alignment process that is transparent, meaningfully represents the people impacted by the technology, and synthesizes peoples' values in a way that achieves broad consensus amongst many groups.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "paper we align to the inferred user intention for simplicity, but more research is required in this area.\nIndeed, one of the biggest open questions is how to design an alignment process that is transparent,\nthat meaningfully represents the people impacted by the technology, and that synthesizes peoples\u2019\nvalues in a way that achieves broad consensus amongst many groups. We discuss some related\nconsiderations in Section 5.2.\n5.5 Broader impacts"
+  },
+  {
+    "question": "What type of task has the QNLI dataset been converted to?",
+    "answer": "a binary classification task",
+    "source": "data/papers\\BERT.pdf",
+    "chunk_text": "QNLI Question Natural Language Inference is\na version of the Stanford Question Answering\nDataset (Rajpurkar et al., 2016) which has been\nconverted to a binary classi\ufb01cation task (Wang\net al., 2018a). The positive examples are (ques-\ntion, sentence) pairs which do contain the correct\nanswer, and the negative examples are (question,\nsentence) from the same paragraph which do not\ncontain the answer."
+  },
+  {
+    "question": "In which year was the paper 'Uprise: Universal prompt retrieval for improving zero-shot evaluation' published?",
+    "answer": "2023",
+    "source": "data/papers\\Retrieval-Augmented Generation for Large Language Models- A Survey.pdf",
+    "chunk_text": "F. Wei, D. Deng, and Q. Zhang, \u201cUprise: Universal prompt retrieval\nfor improving zero-shot evaluation,\u201d arXiv preprint arXiv:2303.08518,\n2023.\n[21] Z. Dai, V . Y . Zhao, J. Ma, Y . Luan, J. Ni, J. Lu, A. Bakalov, K. Guu,\nK. B. Hall, and M.-W. Chang, \u201cPromptagator: Few-shot dense retrieval\nfrom 8 examples,\u201d arXiv preprint arXiv:2209.11755 , 2022.\n[22] Z. Sun, X. Wang, Y . Tay, Y . Yang, and D. Zhou, \u201cRecitation-augmented\nlanguage models,\u201d arXiv preprint arXiv:2210.01296 , 2022."
+  },
+  {
+    "question": "Who are the authors of the paper 'Fine-tuning language models from human preferences'?",
+    "answer": "The authors are Daniel M. Ziegler, Nisan Stiennon, Jeffrey Wu, Tom B. Brown, Alec Radford, Dario Amodei, Paul Cristiano, and Geoffrey Irving.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "[ZSW+19b] Daniel M. Ziegler, Nisan Stiennon, Jeffrey Wu, Tom B. Brown, Alec Radford, Dario Amodei, Paul Chris-\ntiano, and Geoffrey Irving. Fine-tuning language models from human preferences.ArXiv, abs/1909.08593,\n2019.\n75"
+  },
+  {
+    "question": "What datasets are used for Long Document Classification in this research?",
+    "answer": "MIMIC-III and ECtHR.",
+    "source": "data/papers\\FlashAttention.pdf",
+    "chunk_text": "haves the same as the baseline implementation and the validation perplexity curves of the two implementations\nalmost lie on top of each other.\nLong Document Classi\ufb01cation. For MIMIC-III and ECtHR, we follow the hyperparameters of Dai et al.\n[13].\n26"
+  },
+  {
+    "question": "What percentage of errors in the PaLM 62B model were categorized as 'one step missing'?",
+    "answer": "18 errors out of 45, which is 40%.",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "models, as chain of thought actually hurts performance for most models smaller than 10B parameters.\nThe question of why model scale improves chain-of-thought prompting is certainly multi-faceted, and\nwe made a preliminary attempt to shed insight into it via error analysis. This small analysis involved\nmanually reading 45 errors made by PaLM 62B and categorizing them into semantic understanding\n(20 errors), one step missing (18 errors), and other errors (7 errors). The \u201cother category\u201d included"
+  },
+  {
+    "question": "What is the first item the robot chooses to bring as a snack?",
+    "answer": "jalapeno chips",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "Explanation: The user has asked me to move the grapefruit drink to the counter.\nPlan: 1. \ufb01nd(grapefruit soda), 2. pick(grapefruit soda), 3. \ufb01nd(counter), 4. put(grapefruit soda), 5. done().\nHuman: How would you bring me some snacks?\nExplanation: The user has asked for snacks, I will choose two items and bring them. I will bring jalapeno chips\nand an apple.\nPlan: 1. \ufb01nd(jalapeno chips), 2. pick(jalapeno chips), 3. \ufb01nd(user), 4. put(jalapeno chips), 5. \ufb01nd(apple), 6."
+  },
+  {
+    "question": "What percentage of the top 100 most favored words were adjectives and adverbs?",
+    "answer": "We looked at the adjectives and adverbs in the top 100 most favored words.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "Protect (10) Tight (10)\nJolly (10) Pregnant (10)\nStable (9) Gorgeous (28)\nPersonable (22) Sucked (8)\nSurvive (7) Beautiful (158)\nof 1 and top p of 0.9 for every prompt in our dataset. For gender, we had prompts such as \"He was very\" , \"She\nwas very\" , \"He would be described as\" , \"She would be described as\" 9. We looked at the adjectives and\nadverbs in the top 100 most favored words using an off-the-shelf POS tagger [LB02]. We found females were more"
+  },
+  {
+    "question": "How is the average per-token log probability calculated?",
+    "answer": "According to the text, the average per-token log probability is calculated at T = 1.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "temperatureT = 0 and truncated at the \ufb01rst newline. Multiple choice answers are picked according\nto which one has the lowest average per-token log probability atT = 1. When a prompt contains\nfew-shot examples, it maintains the same format for the few-shot examples as it does for the \ufb01nal\nquery.\nD.1 Toxicity and bias evaluation details\nFor bias and toxicity measurements, we show results with three different choices of instruction,"
+  },
+  {
+    "question": "What type of capabilities have generative large language models demonstrated?",
+    "answer": "strong natural language understanding (NLU) and generation (NLG) capabilities",
+    "source": "data/papers\\HyDE.pdf",
+    "chunk_text": "we start by examining self-supervised representa-\ntion learning methods. Modern deep learning en-\nables two distinct learning algorithms. At the token\nlevel, generative large language models (LLM) pre-\ntrained on large corpus have demonstrated strong\nnatural language understanding (NLU) and gen-\neration (NLG) capabilities (Brown et al., 2020;\nChen et al., 2021; Rae et al., 2021; Hoffmann\net al., 2022; Thoppilan et al., 2022; Chowdhery\net al., 2022). At the document level, text (chunk)"
+  },
+  {
+    "question": "How many tokens are in the vocabulary?",
+    "answer": "30,000",
+    "source": "data/papers\\BERT.pdf",
+    "chunk_text": "gle sentence or two sentences packed together.\nWe use WordPiece embeddings (Wu et al.,\n2016) with a 30,000 token vocabulary. The \ufb01rst\ntoken of every sequence is always a special clas-\nsi\ufb01cation token ( [CLS]). The \ufb01nal hidden state\ncorresponding to this token is used as the ag-\ngregate sequence representation for classi\ufb01cation\ntasks. Sentence pairs are packed together into a\nsingle sequence. We differentiate the sentences in\ntwo ways. First, we separate them with a special"
+  },
+  {
+    "question": "What is the URL of the paper 'agent tree search unifies reasoning acting and planning in language models'?",
+    "answer": "https://arxiv.org/abs/2310.04406.",
+    "source": "data/papers\\SelfRAG.pdf",
+    "chunk_text": "agent tree search unifies reasoning acting and planning in language models, 2023. URL https:\n//arxiv.org/abs/2310.04406.\nDaniel M Ziegler, Nisan Stiennon, Jeffrey Wu, Tom B Brown, Alec Radford, Dario Amodei, Paul\nChristiano, and Geoffrey Irving. Fine-tuning language models from human preferences. arXiv\npreprint arXiv:1909.08593, 2019. URL https://arxiv.org/abs/1909.08593.\n15"
+  },
+  {
+    "question": "How many different annotators were used in the robustness experiments?",
+    "answer": "Three different annotators were used.",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "training set and decomposing the reasoning process into multiple steps leading to the \ufb01nal answer.\nExamples of chain of thought annotations are provided in Figure 3, with full prompts given in\nAppendix G. To analyze how sensitive chain of thought is to prompt engineering, we performed\nrobustness experiments with respect to various factors.\n\u2022 Different annotators. We \ufb01rst analyze robustness to three different annotators (Section 3.4 and"
+  },
+  {
+    "question": "How has the task of closed book question answering been normally approached?",
+    "answer": "Using an information retrieval system to find relevant text in combination with a model which learns to generate an answer given the question and the retrieved text.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "3.2 Closed Book Question Answering\nIn this section we measure GPT-3\u2019s ability to answer questions about broad factual knowledge. Due to the immense\namount of possible queries, this task has normally been approached by using an information retrieval system to \ufb01nd\nrelevant text in combination with a model which learns to generate an answer given the question and the retrieved\ntext. Since this setting allows a system to search for and condition on text which potentially contains the answer it"
+  },
+  {
+    "question": "What is the section title of the appendix that contains details about SELF-RAG Inference?",
+    "answer": "A.3 SELF-RAG Inference",
+    "source": "data/papers\\SelfRAG.pdf",
+    "chunk_text": "Preprint.\nAPPENDIX\nA S ELF -R AG Details 17\nA.1 Reflection Tokens. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17\nA.2 S ELF -R AG Training . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17\nA.3 S ELF -R AG Inference . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19\nB Experimental Details 19\nB.1 More Details of Training . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19"
+  },
+  {
+    "question": "What is the maximum speed up achieved by GPT-2 small and medium using FlashAttention compared to Huggingface implementation?",
+    "answer": "Up to 3 times speed up.",
+    "source": "data/papers\\FlashAttention.pdf",
+    "chunk_text": "achieves the same perplexity as the other two implementations, as we do not change the model de\ufb01nition.\nAppendix E includes plots of the validation perplexity throughout training, con\ufb01rming thatFlashAttention\nis as numerically stable as the baselines and produces the same training / validation curves.\nTable 2: GPT-2 small and medium usingFlashAttention achieve up to 3\u0002 speed up compared to Huggingface\nimplementation and up to 1.7\u0002 compared to Megatron-LM. Training time reported on 8\u0002A100s GPUs."
+  },
+  {
+    "question": "What percentage of the time does a social media disinformation bot produce incoherent outputs?",
+    "answer": "1% of the time",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "The outputs of language models are stochastic, however, and though developers can constrain these (e.g. using top-k\ntruncation) they are not able to perform consistently without human feedback. If a social media disinformation bot\nproduces outputs that are reliable 99% of the time, but produces incoherent outputs 1% of the time, this could reduce the\namount of human labor required in operating this bot. But a human is still needed to \ufb01lter the outputs, which restricts\nhow scalable the operation "
+  },
+  {
+    "question": "What is the sparsity pattern used in the context of attention?",
+    "answer": "The butterfly pattern is used as the sparsity pattern.",
+    "source": "data/papers\\FlashAttention.pdf",
+    "chunk_text": "ticket in the context of attention: we \ufb01x the sparsity pattern to be the butter\ufb02y pattern through training,\nand observe that it performs almost as well as the (dense)FlashAttentionon the Long-range Arena tasks.\nE\ufb03cient Transformer.Transformer-based models have become the most widely-used architecture in\nnatural language processing [22] and computer vision [24, 91]. However, one of their computational bottlenecks"
+  },
+  {
+    "question": "What is the name of the model agent that divides its retrieval process into distinct steps?",
+    "answer": "Graph-Toolformer",
+    "source": "data/papers\\Retrieval-Augmented Generation for Large Language Models- A Survey.pdf",
+    "chunk_text": "These methods are part of a broader trend wherein\nLLMs employ active judgment in their operations, as seen\nin model agents like AutoGPT, Toolformer, and Graph-\nToolformer [107]\u2013[109]. Graph-Toolformer, for instance, di-\nvides its retrieval process into distinct steps where LLMs\nproactively use retrievers, apply Self-Ask techniques, and em-\nploy few-shot prompts to initiate search queries. This proactive\nstance allows LLMs to decide when to search for necessary"
+  },
+  {
+    "question": "What is the primary objective of the evaluation of RAG models?",
+    "answer": "The primary objective of this evaluation is to comprehend and optimize the performance of RAG models across diverse application scenarios.",
+    "source": "data/papers\\Retrieval-Augmented Generation for Large Language Models- A Survey.pdf",
+    "chunk_text": "model\u2019s autonomous judgment capabilities in generating ac-\ncurate responses.\nVI. T ASK AND EVALUATION\nThe rapid advancement and growing adoption of RAG\nin the field of NLP have propelled the evaluation of RAG\nmodels to the forefront of research in the LLMs community.\nThe primary objective of this evaluation is to comprehend\nand optimize the performance of RAG models across diverse\napplication scenarios.This chapter will mainly introduce the\nmain downstream tasks of RAG, datasets, and how to eval"
+  },
+  {
+    "question": "When did Ignatius write his letter to the Magnesians?",
+    "answer": "ca. 110.",
+    "source": "data/papers\\SelfRAG.pdf",
+    "chunk_text": "Early Christian observance of both the spiritual seventh-day sabbath and a Lord\u00b4s Day assembly is evidenced in\nIgnatius\u00b4s letter to the Magnesians ca. 110.\nReference [2] Despite the official adoption of Sunday as a day of rest by Constantine, the seven-day week and\nthe nundial cycle continued to be used side-by-side until at least the Calendar of 354 and probably later. ... The\nfact that the canon had to be issued at all is an indication that adoption of Constantine\u2019s decree of 321 was still"
+  },
+  {
+    "question": "Where was the research paper published?",
+    "answer": "Association for Computational Linguistics.",
+    "source": "data/papers\\HyDE.pdf",
+    "chunk_text": "ing, pages 6894\u20136910, Online and Punta Cana, Do-\nminican Republic. Association for Computational\nLinguistics.\nJordan Hoffmann, Sebastian Borgeaud, Arthur Mensch,\nElena Buchatskaya, Trevor Cai, Eliza Rutherford,\nDiego de Las Casas, Lisa Anne Hendricks, Johannes\nWelbl, Aidan Clark, Tom Hennigan, Eric Noland,\nKatie Millican, George van den Driessche, Bogdan\nDamoc, Aurelia Guy, Simon Osindero, Karen Si-\nmonyan, Erich Elsen, Jack W. Rae, Oriol Vinyals,\nand Laurent Sifre. 2022. Training compute-optima"
+  },
+  {
+    "question": "What type of scores are reported for the QQP and MRPC tasks?",
+    "answer": "F1 scores are reported for QQP and MRPC.",
+    "source": "data/papers\\BERT.pdf",
+    "chunk_text": "Table 1: GLUE Test results, scored by the evaluation server ( https://gluebenchmark.com/leaderboard).\nThe number below each task denotes the number of training examples. The \u201cAverage\u201d column is slightly different\nthan the of\ufb01cial GLUE score, since we exclude the problematic WNLI set. 8 BERT and OpenAI GPT are single-\nmodel, single task. F1 scores are reported for QQP and MRPC, Spearman correlations are reported for STS-B, and"
+  },
+  {
+    "question": "What are some examples of user prompts from the InstructGPT distribution?",
+    "answer": "The examples include brainstorming ideas for regaining enthusiasm for a career, studying Ancient Greece, and reading the instruction manual for a trash compactor.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "QA, brainstorming, chat, rewriting, summarization, classi\ufb01cation, extraction, or other. Below, we\nshow \ufb01ctional but realistic prompts from a variety of use cases:\nA.2.1 Illustrative user prompts from InstructGPT distribution\nUse Case Example\nbrainstorming List \ufb01ve ideas for how to regain enthusiasm for my career\nbrainstorming What are some key points I should know when studying Ancient Greece?\nbrainstorming What are 4 questions a user might have after reading the instruction manual for a\ntrash c"
+  },
+  {
+    "question": "What type of research is being discussed in section 5.1?",
+    "answer": "Alignment research.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "for alignment research (5.1), what we are aligning to (5.2), limitations (5.3), open questions (5.4),\nand broader impacts of this work (5.5).\n2 Related work\nResearch on alignment and learning from human feedback. We build on previous techniques\nto align models with human intentions, particularly reinforcement learning from human feed-\nback (RLHF). Originally developed for training simple robots in simulated environments and Atari"
+  },
+  {
+    "question": "Who are the authors of the paper 'LaMDA: Language models for dialog applications'?",
+    "answer": "The authors are Romal Thoppilan, Daniel De Freitas, Jamie Hall, Noam Shazeer, Apoorv Kulshreshtha, Heng-Tze Cheng, Alicia Jin, Taylor Bos, Leslie Baker, Yu Du, et al.",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "preprint arXiv:2205.05131.\nRomal Thoppilan, Daniel De Freitas, Jamie Hall, Noam Shazeer, Apoorv Kulshreshtha, Heng-Tze\nCheng, Alicia Jin, Taylor Bos, Leslie Baker, Yu Du, et al. 2022. LaMDA: Language models for\ndialog applications. arXiv preprint arXiv:2201.08239.\nXuezhi Wang, Jason Wei, Dale Schuurmans, Quoc Le, Ed Chi, and Denny Zhou. 2022a.\nSelf-consistency improves chain of thought reasoning in language models. arXiv preprint\narXiv:2203.11171."
+  },
+  {
+    "question": "What evaluation dataset was used to show the alignment of RAGas predictions with human predictions?",
+    "answer": "WikiEval",
+    "source": "data/papers\\Ragas.pdf",
+    "chunk_text": "to use and can provide deverlopers of RAG sys-\ntems with valuable insights, even in the absence\nof any ground truth. Our evaluation on WikiEval\nhas shown that the predictions from Ragas are\nclosely aligned with human predictions, especially\nfor faithfulness and answer relevance."
+  },
+  {
+    "question": "What was the accuracy of the control model in identifying model-generated articles?",
+    "answer": "The control model had an accuracy of 88%.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "law with 95% con\ufb01dence intervals.\nMean accuracy\n95% Con\ufb01dence\nInterval (low, hi)\nt compared to\ncontrol (p-value)\n\u201cI don\u2019t know\u201d\nassignments\nControl 88% 84%\u201391% - 2.7%\nGPT-3 175B 52% 48%\u201357% 12.7 (3.2 e-23) 10.6%\nTable 3.12: People\u2019s ability to identify whether\u223c 500 word articles are model generated (as measured by the ratio of\ncorrect assignments to non-neutral assignments) was 88% on the control model and 52% on GPT-3 175B. This table"
+  },
+  {
+    "question": "What is the maximum number of episodes found helpful for training the 1.3B model?",
+    "answer": "256k episodes",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "experiments show better human Likert scores can be achieved with a pretraining data ratio of 32.\nHowever, the training time also increases by a few fold. By setting the pretraining data ratio to 8, the\ntraining time doubles that of the corresponding experiment without using pretraining mix; we chose\nthis as a middle ground between training speed and pretraining loss performance.\nUsing the 1.3B model, we did not \ufb01nd it helpful to train more than 256k episodes, for PPO with"
+  },
+  {
+    "question": "What percentage of examples were flagged by the overlap analysis?",
+    "answer": "45%",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "contamination.\n\u2022 Winograd: The overlap analysis \ufb02agged 45% of examples, and found a 2.6% decrease in performance on the\nclean subset. Manual inspection of the overlapping data point showed that 132 Winograd schemas were in\nfact present in our training set, though presented in a different format than we present the task to the model.\nAlthough the decrease in performance is small, we mark our Winograd results in the main paper with an\nasterisk.\n32"
+  },
+  {
+    "question": "What model achieved the largest improvements with chain-of-thought prompting?",
+    "answer": "PaLM 540B achieved the largest improvements with chain-of-thought prompting.",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "(2022) and also manually composed chains of thought.\nResults. Figure 7 highlights these results for PaLM (full results for LaMDA, GPT-3, and different\nmodel scales are shown in Table 4). For all tasks, scaling up model size improved the performance\nof standard prompting; chain-of-thought prompting led to further gains, with improvements appear-\ning to be largest for PaLM 540B. With chain-of-thought prompting, PaLM 540B achieved strong"
+  },
+  {
+    "question": "What category does this paper fall into?",
+    "answer": "general prompting approaches",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "survey). This paper falls in the category of general prompting approaches, whereby input prompts are\noptimized to allow a single large language model to better perform a variety of tasks (Li and Liang,\n2021; Lester et al., 2021; Reif et al., 2022, inter alia).\nOne recent line of work aims to improve the ability of language models to perform a task by providing\ninstructions that describe the task (Raffel et al., 2020; Wei et al., 2022a; Ouyang et al., 2022; Sanh"
+  },
+  {
+    "question": "What has RAG transcended in its development?",
+    "answer": "its initial text-based question-answering confines",
+    "source": "data/papers\\Retrieval-Augmented Generation for Large Language Models- A Survey.pdf",
+    "chunk_text": "advanced enterprise applications. However, a fully integrated,\ncomprehensive platform concept is still in the future, requiring\nfurther innovation and development.\nF . Multi-modal RAG\nRAG has transcended its initial text-based question-\nanswering confines, embracing a diverse array of modal data.\nThis expansion has spawned innovative multimodal models\nthat integrate RAG concepts across various domains:\nImage. RA-CM3 [176] stands as a pioneering multimodal"
+  },
+  {
+    "question": "How many sets of exemplars were randomly sampled from GSM8K?",
+    "answer": "Three sets of eight exemplars were randomly sampled.",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "which enables us to investigate whether chain of thought still works with reasoning chains from an\nindependent source without a background in machine learning. So we randomly sampled three sets\nof eight exemplars with chains of thought from GSM8K. These chain of thought annotations also\noutperformed the baseline by a large margin for all four arithmetic datasets (Table 6), indicating\nthat chain of thought is not dependent on a particular set of annotators."
+  },
+  {
+    "question": "What type of evaluation method is used in the research?",
+    "answer": "The 'partial' evaluation method is used.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "Incorrect Answer \u2192 hinder is to destination\nIncorrect Answer \u2192 soothe is to passion\nFigure G.12: Formatted dataset example for SAT Analogies\nCorrect Context \u2192 Grace was happy to trade me her sweater for my jacket. She thinks the\nsweater\nIncorrect Context \u2192 Grace was happy to trade me her sweater for my jacket. She thinks the\njacket\nTarget Completion \u2192 looks dowdy on her.\nFigure G.13: Formatted dataset example for Winograd. The \u2018partial\u2019 evaluation method we use compares the probability"
+  },
+  {
+    "question": "What values of the KL reward coefficient result in poor performance?",
+    "answer": "Both 0 and 2 for KL reward coefficient result in poor performance.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "coef\ufb01cient properly. In Figure 36, we show the human likert score as a function of the KL reward\ncoef\ufb01cient. Both 0 and 2 for KL reward coef\ufb01cient result in poor performance. The optimal value is\naround 0.01 and 0.02.\nE.8 PPO init models\nWe experimented with a few variants of the SFT models as the PPO\u2019s init model, including training\non the human demonstration data for one and two epochs, with 0%, 10%, and 50% pretraining data"
+  },
+  {
+    "question": "What is a consequence of generating smaller chunks of information?",
+    "answer": "They require longer processing time and higher costs.",
+    "source": "data/papers\\Retrieval-Augmented Generation for Large Language Models- A Survey.pdf",
+    "chunk_text": "but they also generate more noise, requiring longer processing\ntime and higher costs. While smaller chunks may not fully\nconvey the necessary context, they do have less noise. How-\never, chunks leads to truncation within sentences, prompting\nthe optimization of a recursive splits and sliding window meth-\nods, enabling layered retrieval by merging globally related\ninformation across multiple retrieval processes [89]. Never-\ntheless, these approaches still cannot strike a balance between"
+  },
+  {
+    "question": "What percentage of the time is B the actual next sentence that follows A?",
+    "answer": "50%",
+    "source": "data/papers\\BERT.pdf",
+    "chunk_text": "To generate each training input sequence, we sam-\nple two spans of text from the corpus, which we\nrefer to as \u201csentences\u201d even though they are typ-\nically much longer than single sentences (but can\nbe shorter also). The \ufb01rst sentence receives the A\nembedding and the second receives the B embed-\nding. 50% of the time B is the actual next sentence\nthat follows A and 50% of the time it is a random\nsentence, which is done for the \u201cnext sentence pre-\ndiction\u201d task. They are sampled such that the com-"
+  },
+  {
+    "question": "In what year was the paper 'Generalization through memorization: Nearest neighbor language models' published?",
+    "answer": "2020",
+    "source": "data/papers\\Ragas.pdf",
+    "chunk_text": "Wallace, and Colin Raffel. 2022. Large language\nmodels struggle to learn long-tail knowledge. CoRR,\nabs/2211.08411.\nUrvashi Khandelwal, Omer Levy, Dan Jurafsky, Luke\nZettlemoyer, and Mike Lewis. 2020. Generalization\nthrough memorization: Nearest neighbor language\nmodels. In 8th International Conference on Learning\nRepresentations, ICLR 2020, Addis Ababa, Ethiopia,\nApril 26-30, 2020. OpenReview.net.\nOmar Khattab, Keshav Santhanam, Xiang Lisa Li,\nDavid Hall, Percy Liang, Christopher Potts, and"
+  },
+  {
+    "question": "What metrics are used to evaluate performance on the STS-B task?",
+    "answer": "Pearson correlation is used to evaluate performance on the STS-B task.",
+    "source": "data/papers\\LoRA.pdf",
+    "chunk_text": "GLUE benchmark. We report the overall (matched and mismatched) accuracy for MNLI, Matthew\u2019s\ncorrelation for CoLA, Pearson correlation for STS-B, and accuracy for other tasks. Higher is better\nfor all metrics. * indicates numbers published in prior works.\u2020 indicates runs con\ufb01gured in a setup\nsimilar to Houlsby et al. (2019) for a fair comparison.\nBias-only or BitFit is a baseline where we only train the bias vectors while freezing everything else."
+  },
+  {
+    "question": "How many authors are listed in the paper 'Megatron-lm: Training multi-billion parameter language models using model parallelism'?",
+    "answer": "Four authors are listed in the paper 'Megatron-lm: Training multi-billion parameter language models using model parallelism'.",
+    "source": "data/papers\\LLaMa.pdf",
+    "chunk_text": "30(1):50\u201364.\nNoam Shazeer. 2020. Glu variants improve trans-\nformer. arXiv preprint arXiv:2002.05202.\nEmily Sheng, Kai-Wei Chang, Premkumar Natarajan,\nand Nanyun Peng. 2019. The woman worked as a\nbabysitter: On biases in language generation. arXiv\npreprint arXiv:1909.01326.\nMohammad Shoeybi, Mostofa Patwary, Raul Puri,\nPatrick LeGresley, Jared Casper, and Bryan Catan-\nzaro. 2019. Megatron-lm: Training multi-billion pa-\nrameter language models using model parallelism.\narXiv preprint arXiv:1909.08"
+  },
+  {
+    "question": "What was the first message sent on the first commercial telegraph line?",
+    "answer": "The first message sent was the Latin phrase 'numquam retrorsum' which means 'Never backwards'.",
+    "source": "data/papers\\LLaMa.pdf",
+    "chunk_text": "Gauss: Well, have you ever seen this picture?\nCurie: Awww!\nGauss: That\u2019s right! I invented the commercial telegraph in 1833, and I used it to send the\n\ufb01rst message on the \ufb01rst commercial telegraph line between Hamburg and Cuxhaven in\nGermany.\nCurie: Wow! The \ufb01rst telegraph! And what did you send?\nGauss: I sent the Latin phrase \u201cnumquam retrorsum\u201d which means \u201cNever backwards\u201d.\nCurie: I see. . . And you think that because you were the \ufb01rst person to communicate using\nthe telegraph, you were the \ufb01"
+  },
+  {
+    "question": "What is the dual-signal approach used in the retriever fine-tuning process?",
+    "answer": "The dual-signal approach uses hard labels for the dataset and soft rewards from the LLMs.",
+    "source": "data/papers\\Retrieval-Augmented Generation for Large Language Models- A Survey.pdf",
+    "chunk_text": "lenges in supervised fine-tuning, particularly in data-scarce\ndomains. Another approach, LLM-Embedder [97], exploits\nLLMs to generate reward signals across multiple downstream\ntasks. The retriever is fine-tuned with two types of supervised\nsignals: hard labels for the dataset and soft rewards from\nthe LLMs. This dual-signal approach fosters a more effective\nfine-tuning process, tailoring the embedding model to diverse\ndownstream applications. REPLUG [72] utilizes a retriever"
+  },
+  {
+    "question": "What is the accuracy of the BERTLARGE model on the test set?",
+    "answer": "86.3",
+    "source": "data/papers\\BERT.pdf",
+    "chunk_text": "System Dev Test\nESIM+GloVe 51.9 52.7\nESIM+ELMo 59.1 59.2\nOpenAI GPT - 78.0\nBERTBASE 81.6 -\nBERTLARGE 86.6 86.3\nHuman (expert)\u2020 - 85.0\nHuman (5 annotations)\u2020 - 88.0\nTable 4: SW AG Dev and Test accuracies.\u2020Human per-\nformance is measured with 100 samples, as reported in\nthe SW AG paper.\n\u02c6si,j = maxj\u2265iS\u00b7Ti +E\u00b7Tj. We predict a non-null\nanswer when \u02c6si,j > snull +\u03c4, where the thresh-\nold \u03c4 is selected on the dev set to maximize F1.\nWe did not use TriviaQA data for this model. We"
+  },
+  {
+    "question": "Has distillation been tried at the scale of hundreds of billions of parameters?",
+    "answer": "No, according to the text.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "models of this scale in their current form. One possible future direction to address this is distillation [HVD15] of large\nmodels down to a manageable size for speci\ufb01c tasks. Large models such as GPT-3 contain a very wide range of skills,\nmost of which are not needed for a speci\ufb01c task, suggesting that in principle aggressive distillation may be possible.\nDistillation is well-explored in general [LHCG19a] but has not been tried at the scale of hundred of billions parameters;"
+  },
+  {
+    "question": "Who co-authored the 2022 paper 'Bloom: A 176b-parameter open-access multilingual language model'?",
+    "answer": "Matthias Gall\u00e9",
+    "source": "data/papers\\LLaMa.pdf",
+    "chunk_text": "Yvon, Matthias Gall\u00e9, et al. 2022. Bloom: A 176b-\nparameter open-access multilingual language model.\narXiv preprint arXiv:2211.05100.\nRico Sennrich, Barry Haddow, and Alexandra Birch.\n2015. Neural machine translation of rare words with\nsubword units. arXiv preprint arXiv:1508.07909.\nClaude E Shannon. 1948. A mathematical theory of\ncommunication. The Bell system technical journal ,\n27(3):379\u2013423.\nClaude E Shannon. 1951. Prediction and entropy\nof printed english. Bell system technical journal ,\n30"
+  },
+  {
+    "question": "What is the main difference between REALM and the retrieve-and-edit framework proposed by Hashimoto et al. (2018)?",
+    "answer": "REALM learns for itself which texts are most relevant, whereas the retrieve-and-edit framework conditions on text with high lexical overlap.",
+    "source": "data/papers\\REALM.pdf",
+    "chunk_text": "view REALM as a generalization of the above work to the\nnext level of scope: the entire text corpus.\nRetrieve-and-edit with learned retrieval In order to\nbetter explain the variance in the input text and en-\nable controllable generation,\nGuu et al. (2018) proposed\na language model with the retrieve-and-edit frame-\nwork (Hashimoto et al., 2018) that conditions on text with\nhigh lexical overlap. REALM has a similar approach, ex-\ncept that the model learns for itself which texts are most"
+  },
+  {
+    "question": "What was observed to happen to the retrieval component in some tasks?",
+    "answer": "It would 'collapse' and learn to retrieve the same documents regardless of the input.",
+    "source": "data/papers\\RAG.pdf",
+    "chunk_text": "728 dimensional vectors, consisting of 15.3B values. These can be easily be stored at 8-bit \ufb02oating\npoint precision to manage memory and disk footprints.\nH Retrieval Collapse\nIn preliminary experiments, we observed that for some tasks such as story generation [ 11], the\nretrieval component would \u201ccollapse\u201d and learn to retrieve the same documents regardless of the\ninput. In these cases, once retrieval had collapsed, the generator would learn to ignore the documents,"
+  },
+  {
+    "question": "What is the name of the model that surpasses GPT-3 on HellaSwag?",
+    "answer": "PPO-ptx model",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "question about 50% of the time.\nIn Figure 29 we show that adding pretraining updates to our PPO \ufb01ne-tuning (PPO-ptx) mitigates these\nperformance regressions on all datasets, and even surpasses GPT-3 on HellaSwag. The performance\nof the PPO-ptx model still lags behind GPT-3 on DROP, SQuADv2, and translation; more work is\nneeded to study and further eliminate these performance regressions.\nMixing in pretraining updates performs better than the simpler solution of increasing the KL co-"
+  },
+  {
+    "question": "How many instances were collected for the 'Retrieve' category?",
+    "answer": "1,2594",
+    "source": "data/papers\\SelfRAG.pdf",
+    "chunk_text": "Details of GPT-4-based data collections. We use the instruction and demonstration pairs to prompt\nGPT-4, listed in Section D. Following an official recommendation, we separate instructions and\noutputs with \u201c##\u201d. We use the temperature 1 and set the maximum output token counts to be 200. We\ndiscard instances where GPT-4 does not follow the designated output formats or output sequences\nthat do not match our expected category names. As a result, we collected 1,2594 for Retrieve , 11,181"
+  },
+  {
+    "question": "What is the density of a pear?",
+    "answer": "The density of a pear is about 0.6g/cm3.",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "Q: Yes or no: Would a pear sink in water?\nA: The density of a pear is about 0.6g/cm3, which is less than water. Objects less dense than water \ufb02oat. Thus,\na pear would \ufb02oat. So the answer is no.\nTable 26: Few-shot exemplars for full chain of thought prompt for Date Understanding.\nPROMPT FOR DATE UNDERSTANDING\nQ: 2015 is coming in 36 hours. What is the date one week from today in MM/DD/YYYY?\nA: If 2015 is coming in 36 hours, then it is coming in 2 days. 2 days before 01/01/2015 is 12/30/2014, so t"
+  },
+  {
+    "question": "What type of Transformer does BERT use?",
+    "answer": "a bidirectional Transformer",
+    "source": "data/papers\\BERT.pdf",
+    "chunk_text": "BERT (Ours)\nTrm Trm Trm\nTrm Trm Trm\n...\n...\nTrm Trm Trm\nTrm Trm Trm\n...\n...\nOpenAI GPT\nLstm\nELMo\nLstm Lstm\nLstm Lstm Lstm\nLstm Lstm Lstm\nLstm Lstm Lstm\n T1 T2  TN...\n...\n...\n...\n...\n E1 E2  EN...\n T1 T2 TN...\n E1 E2  EN...\n T1 T2  TN...\n E1 E2  EN...\nFigure 3: Differences in pre-training model architectures. BERT uses a bidirectional Transformer. OpenAI GPT\nuses a left-to-right Transformer. ELMo uses the concatenation of independently trained left-to-right and right-to-"
+  },
+  {
+    "question": "What is the title of the research paper by Ari Holtzman, Jan Buys, Maxwell Forbes, and Yejin Choi?",
+    "answer": "The curious case of neural text degeneration.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "[HB20] Daniel Hernandez and Tom Brown. Ai and ef\ufb01ciency, May 2020.\n[HBFC19] Ari Holtzman, Jan Buys, Maxwell Forbes, and Yejin Choi. The curious case of neural text degeneration.\nCoRR, abs/1904.09751, 2019.\n[HLW+20] Dan Hendrycks, Xiaoyuan Liu, Eric Wallace, Adam Dziedzic, Rishabh Krishnan, and Dawn Song.\nPretrained transformers improve out of distribution robustness. arXiv preprint arXiv:2004.06100, 2020.\n69"
+  },
+  {
+    "question": "What is the purpose of training BERT models with different sizes?",
+    "answer": "To explore the effect of model size on fine-tuning task accuracy.",
+    "source": "data/papers\\BERT.pdf",
+    "chunk_text": "both left and right context at every layer.\n5.2 Effect of Model Size\nIn this section, we explore the effect of model size\non \ufb01ne-tuning task accuracy. We trained a number\nof BERT models with a differing number of layers,\nhidden units, and attention heads, while otherwise\nusing the same hyperparameters and training pro-\ncedure as described previously.\nResults on selected GLUE tasks are shown in\nTable 6. In this table, we report the average Dev\nSet accuracy from 5 random restarts of \ufb01ne-tuning."
+  },
+  {
+    "question": "What is the title of the research paper?",
+    "answer": "GPL: Generative pseudo labeling for unsupervised domain adaptation of dense retrieval.",
+    "source": "data/papers\\HyDE.pdf",
+    "chunk_text": "Gurevych. 2022. GPL: Generative pseudo label-\ning for unsupervised domain adaptation of dense re-\ntrieval. In Proceedings of the 2022 Conference of\nthe North American Chapter of the Association for\nComputational Linguistics: Human Language Tech-\nnologies, pages 2345\u20132360, Seattle, United States.\nAssociation for Computational Linguistics.\nJason Wei, Maarten Bosma, Vincent Y . Zhao, Kelvin\nGuu, Adams Wei Yu, Brian Lester, Nan Du, An-"
+  },
+  {
+    "question": "What is the name of the retrieval model that was fine-tuned on MS-MARCO?",
+    "answer": "mContrieverFT and ContrieverFT",
+    "source": "data/papers\\HyDE.pdf",
+    "chunk_text": "mContriever \ufb01ne-tuned on MS-MARCO, denoted\nContrieverFT and mContrieverFT. These mod-\nels have run through the state-of-the-art retrieval\nmodel training pipeline that involves second-stage\nretrieval-speci\ufb01c pre-training (Lee et al., 2019) and\na few rounds of \ufb01ne-tuning (Qu et al., 2021); they\nshould be considered empirical upper bounds.\n4.2 Web Search\nIn Table 1, we show retrieval results on TREC\nDL19 and TREC DL20. We seeHyDE bring sizable\nimprovements toContriever across the board for"
+  },
+  {
+    "question": "What is the formula for the answer relevance score (AR) in the given text?",
+    "answer": "AR = 1/n * \u03a3 sim(q, qi) for i=1 to n, where sim(q, qi) is the cosine between the corresponding embeddings.",
+    "source": "data/papers\\Ragas.pdf",
+    "chunk_text": "ing the text-embedding-ada-002 model, avail-\nable from the OpenAI API. For each qi, we cal-\nculate the similarity sim(q, qi) with the original\nquestion q, as the cosine between the correspond-\ning embeddings. The answer relevance score, AR,\nfor question q is then computed as:\nAR = 1\nn\nnX\ni=1\nsim(q, qi) (1)\nThis metric evaluates how closely the generated\nanswer aligns with the initial question or instruc-\ntion.\nContext relevance The context c(q) is consid-"
+  },
+  {
+    "question": "What is the learning rate used in one of the experiments to find the best T0 checkpoint?",
+    "answer": "The learning rate used in one of the experiments is 4e-6.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "which is the one trained with learning rate of 4e-6 and for 896k examples.\nWe perform two similar experiments to \ufb01nd the best T0 checkpoint. In one experiment, we used a\nbatch size of 128, a learning rate of 4e-6 and 1.28 million examples. The other experiment used a\n42"
+  },
+  {
+    "question": "What is the Fine-tuned SOTA result on the ARC (Challenge) task?",
+    "answer": "92.0",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "Setting PIQA ARC (Easy) ARC (Challenge) OpenBookQA\nFine-tuned SOTA 79.4 92.0[KKS+20] 78.5[KKS+20] 87.2[KKS+20]\nGPT-3 Zero-Shot 80.5* 68.8 51.4 57.6\nGPT-3 One-Shot 80.5* 71.2 53.2 58.8\nGPT-3 Few-Shot 82.8* 70.1 51.5 65.4\nTable 3.6: GPT-3 results on three commonsense reasoning tasks, PIQA, ARC, and OpenBookQA. GPT-3 Few-Shot\nPIQA result is evaluated on the test server. See Section 4 for details on potential contamination issues on the PIQA test\nset."
+  },
+  {
+    "question": "How many authors are listed in the text?",
+    "answer": "There are 32 authors listed in the text.",
+    "source": "data/papers\\HyDE.pdf",
+    "chunk_text": "Paul Barham, Hyung Won Chung, Charles Sutton,\nSebastian Gehrmann, Parker Schuh, Kensen Shi,\nSasha Tsvyashchenko, Joshua Maynez, Abhishek\nRao, Parker Barnes, Yi Tay, Noam Shazeer, Vin-\nodkumar Prabhakaran, Emily Reif, Nan Du, Ben\nHutchinson, Reiner Pope, James Bradbury, Jacob\nAustin, Michael Isard, Guy Gur-Ari, Pengcheng\nYin, Toju Duke, Anselm Levskaya, Sanjay Ghe-\nmawat, Sunipa Dev, Henryk Michalewski, Xavier\nGarcia, Vedant Misra, Kevin Robinson, Liam Fe-\ndus, Denny Zhou, Daphne Ippolito, David "
+  },
+  {
+    "question": "What was the learning rate threshold for PPO models without pretraining data mix that caused divergence?",
+    "answer": "All runs with learning rate greater than 8.05e-6 diverged.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "for both PPO with and without the pretraining data mix. All runs with learning rate greater than\n8.05e-6 diverged, for PPO models without pretraining data mix. For the 175B models, we did similar\nexperiments with two learning rates of 2.55e-6 and 3.74e-06, due to compute constraints. Figure 38\nshows the human evaluation results. PPO with pretraining data mix appears to be less sensitive to\nchange of the learning rate. Based on these results, we picked the checkpoints with the highest likert"
+  },
+  {
+    "question": "What is the source of the biases in the model, according to the researchers?",
+    "answer": "The biases are expected to come from CommonCrawl despite multiple filtering steps.",
+    "source": "data/papers\\LLaMa.pdf",
+    "chunk_text": "Higher scores thus indicate higher bias. We com-\npare with GPT-3 and OPT-175B in Table 12.\nLLaMA compares slightly favorably to both\nmodels on average. Our model is particularly bi-\nased in the religion category (+10% compared to\nOPT-175B), followed by age and gender. We ex-\npect these biases to come from CommonCrawl de-\nspite multiple \ufb01ltering steps.\n5.3 WinoGender\nTo further investigate the biases of our model on\nthe gender category, we look at the WinoGender"
+  },
+  {
+    "question": "What is the goal of this article?",
+    "answer": "The goal of this article is to help you figure out what is causing the lump in your chest and how to get it to go away.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "uncomfortable feeling that we feel in our chest, abdomen, and other parts of our body. This feeling is often\ntriggered by an emotional or emotional event.\nThe goal of this article is to help you \ufb01gure out what is causing the lump in your chest and how to get it to\ngo away.\nWhat causes the \"anxiety lumps\"?\nThere are a number of different things that can cause anxiety and stress, including:\nLack of sleep or excessive sleep\nStress at work\nStress at home\nOngoing or unresolved con\ufb02ict in relationship"
+  },
+  {
+    "question": "What is the primary factor affecting runtime in the given scenario?",
+    "answer": "HBM access is the primary factor affecting runtime.",
+    "source": "data/papers\\FlashAttention.pdf",
+    "chunk_text": "(seq. length 1024, head dim. 64, 16 heads, batch size 64) on A100 GPU. HBM access is the primary factor a\ufb00ecting\nruntime. Middle: Forward runtime ofFlashAttention(seq. length 1024, head dim. 64, 16 heads, batch size 64) on\nA100 GPU. Fewer HBM accesses result in faster runtime, up to a point.Right: The runtime (for seq. length 4K) of\nblock-sparse FlashAttentionis faster thanFlashAttentionby a factor proportional to the sparsity."
+  },
+  {
+    "question": "Is backhanding a shot part of basketball?",
+    "answer": "No, according to the ground truth, backhanding a shot is part of hockey.",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "of basketball. So the answer is yes. \u2713\nQUESTION : Is the following sentence plausible? \u201cDerrick White backhanded a shot.\u201d\nMODEL ANSWER (INCORRECT): Derrick White is a basketball player. Backhanding a shot is part of\nbasketball. So the answer is yes. \u0017 (Ground truth is \u201cno\u201d, backhanding a shot is part of hockey.)\nQUESTION : Is the following sentence plausible? \u201cNazem Kadri was out at home.\u201d\nMODEL ANSWER (INCORRECT): Nazem Kadri is a hockey player. Being out at home is part of hockey."
+  },
+  {
+    "question": "Which age group had the second most people?",
+    "answer": "25 to 44",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "Passage: In the city, the population was spread out with 12.0% under the age\nof 18, 55.2% from 18 to 24, 15.3% from 25 to 44, 10.3% from 45 to 64, and 7.1%\nwho were 65 years of age or older. The median age was 22 years. For every 100\nfemales, there were 160.7 males. For every 100 females age 18 and over, there\nwere 173.2 males.\nQuestion: Which age group had the second most people?\nAnswer: [target completion: \u201c25 to 44\u201d]\nDataset features\n\u2022 9,536 examples"
+  },
+  {
+    "question": "What is the range of accuracy of GPT-3 on SST-2 when varying the permutation of few-shot exemplars?",
+    "answer": "From near chance (54.3%) to near state of the art (93.4%)",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "has variance for different prompt exam-\nples (as expected) but outperforms stan-\ndard prompting for various annotators as\nwell as for different exemplars.\nSensitivity to exemplars is a key consideration of prompt-\ning approaches\u2014for instance, varying the permutation of\nfew-shot exemplars can cause the accuracy of GPT-3 on\nSST-2 to range from near chance (54.3%) to near state of\nthe art (93.4%) (Zhao et al., 2021). In this \ufb01nal subsec-\ntion, we evaluate robustness to chains of thought written"
+  },
+  {
+    "question": "What is the memory requirement of the forward and backward passes of attention before optimization?",
+    "answer": "They require extra memory quadratic in the sequence length.",
+    "source": "data/papers\\FlashAttention.pdf",
+    "chunk_text": "B Algorithm Details\nWe \ufb01rst derive the forward and backward passes of attention and show that they can be computed in a\nmemory-e\ufb03cient manner (requiring extra memory linear instead of quadratic in the sequence length). Though\nthey reduce the amount of extra memory required, naively they still incur quadratic HBM accesses, resulting\nin slower execution speed. We describe theFlashAttention algorithm to implement both the forward\n17"
+  },
+  {
+    "question": "How many adapter layers are there per Transformer block in the original design by Houlsby et al. (2019)?",
+    "answer": "There are two adapter layers per Transformer block in the original design by Houlsby et al. (2019).",
+    "source": "data/papers\\LoRA.pdf",
+    "chunk_text": "Liu et al., 2021). However, both strategies have their limitations, especially in a large-scale and\nlatency-sensitive production scenario.\nAdapter Layers Introduce Inference Latency There are many variants of adapters. We focus\non the original design by Houlsby et al. (2019) which has two adapter layers per Transformer block\nand a more recent one by Lin et al. (2020) which has only one per block but with an additional"
+  },
+  {
+    "question": "What type of attention does BART and T5 propose to achieve stronger performance?",
+    "answer": "Bi-directional attention.",
+    "source": "data/papers\\RAG.pdf",
+    "chunk_text": "For further improvement, BART [32] and T5 [51, 52] propose a single, pre-trained encoder-decoder\nmodel that leverages bi-directional attention to achieve stronger performance on discriminative\nand generative tasks. Our work aims to expand the space of possible tasks with a single, uni\ufb01ed\narchitecture, by learning a retrieval module to augment pre-trained, generative language models.\nLearned Retrieval There is signi\ufb01cant work on learning to retrieve documents in information"
+  },
+  {
+    "question": "In which year was the paper 'Giving BERT a calculator: Finding operations and arguments with reading comprehension' published?",
+    "answer": "2019",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and\nShort Papers), Minneapolis, Minnesota. Association for Computational Linguistics.\nDaniel Andor, Luheng He, Kenton Lee, and Emily Pitler. 2019. Giving BERT a calculator: Finding\noperations and arguments with reading comprehension. EMNLP.\nJacob Andreas, Dan Klein, and Sergey Levine. 2018. Learning with latent language. NAACL.\nJacob Austin, Augustus Odena, Maxwell Nye, Maarten Bosma, Henryk Michalewski, David"
+  },
+  {
+    "question": "What is the title of the 2021 research paper by Lin, Hilton, and Evans?",
+    "answer": "Truthfulqa: Measuring how models mimic human falsehoods.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "mitigating social biases in language models. In International Conference on Machine Learning,\npages 6565\u20136576. PMLR.\nLin, S., Hilton, J., and Evans, O. (2021). Truthfulqa: Measuring how models mimic human falsehoods.\narXiv preprint arXiv:2109.07958.\nLiu, H., Dacon, J., Fan, W., Liu, H., Liu, Z., and Tang, J. (2019). Does gender matter? towards\nfairness in dialogue systems. arXiv preprint arXiv:1910.10486.\nMadaan, A., Tandon, N., Clark, P., and Yang, Y . (2022). Memory-assisted prompt editing to "
+  },
+  {
+    "question": "For large enough block size, what is the runtime bottleneck?",
+    "answer": "Other factors, such as arithmetic operations.",
+    "source": "data/papers\\FlashAttention.pdf",
+    "chunk_text": "amounts of HBM accesses, and measure the runtime of the forward pass. As block size increases, the number\nof HBM accesses decreases (as we make fewer passes over the input), and runtime decreases. For large enough\nblock size (beyond 256), the runtime is then bottlenecked by other factors (e.g., arithmetic operations).\nMoreover, larger block size will not \ufb01t into the small SRAM size.\n3.3 Extension: Block-Sparse FlashA ttention"
+  },
+  {
+    "question": "What is the fundamental constraint of sequential computation?",
+    "answer": "The fundamental constraint of sequential computation is that memory constraints limit batching across examples.",
+    "source": "data/papers\\Attention Is All You Need.pdf",
+    "chunk_text": "sequence lengths, as memory constraints limit batching across examples. Recent work has achieved\nsignificant improvements in computational efficiency through factorization tricks [21] and conditional\ncomputation [32], while also improving model performance in case of the latter. The fundamental\nconstraint of sequential computation, however, remains.\nAttention mechanisms have become an integral part of compelling sequence modeling and transduc-"
+  },
+  {
+    "question": "What triggers a 'fight-or-flight' response in the body?",
+    "answer": "Feeling threatened.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "Ongoing or unresolved con\ufb02ict in relationships\nTraumatic life events, such as car accidents or other accidents\nFinancial problems (e.g. losing your job, spending too much money)\nMedical conditions (e.g. high blood pressure)\nDrugs and alcohol\nWhat happens in the body?\nThe reason that you feel the lump in your chest is because your body is preparing for a \ufb01ght-or-\ufb02ight\nresponse. When you feel threatened, your body is preparing to either \ufb01ght the threat (e.g. run away) or to"
+  },
+  {
+    "question": "How many authors are listed in the paper [GWC+18]?",
+    "answer": "Four authors are listed in the paper [GWC+18], namely Jiatao Gu, Yong Wang, Yun Chen, and Kyunghyun Cho.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "Smith. Annotation artifacts in natural language inference data. arXiv preprint arXiv:1803.02324, 2018.\n[GSR19] Sebastian Gehrmann, Hendrik Strobelt, and Alexander M. Rush. Gltr: Statistical detection and visualiza-\ntion of generated text. arXiv preprint arXiv: 1906.04043, 2019.\n[GWC+18] Jiatao Gu, Yong Wang, Yun Chen, Kyunghyun Cho, and Victor OK Li. Meta-learning for low-resource\nneural machine translation. arXiv preprint arXiv:1808.08437, 2018."
+  },
+  {
+    "question": "What is the name of the language model shown in Figure 7?",
+    "answer": "PaLM",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "90\nStrategyQA\nStandard prompting\nChain of thought\nPrior supervised best\nHuman\n8 62 540\n0\n20\n40\n60\n80\nModel scale (# parameters in billions)\nDate\n8 62 540\n40\n60\n80\n100\nSports\n8 62 540\n20\n40\n60\n80\n100\nSayCan\nFigure 7: Chain-of-thought prompting also improves the commonsense reasoning abilities of\nlanguage models. The language model shown here is PaLM. Prior best numbers are from the\nleaderboards of CSQA (Talmor et al., 2019) and StrategyQA (Geva et al., 2021) (single-model only,"
+  },
+  {
+    "question": "What was the performance of Annotator A on the coin flip task?",
+    "answer": "99.6%",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "outperform standard prompting, there is large variation in many cases. For instance, for the coin\n\ufb02ip task, the performance varied from 99.6% for Annotator A to 71.4% for Annotator C, though\nboth were above standard prompting = 50.0% (see Table 7). There are even tasks where prompt\nengineering is a requirement for good performance. In preliminary experiments, we tried using chain\nof thought to enable language models to reverse the order of a list of 5 items. While two co-authors"
+  },
+  {
+    "question": "What is the number of parameters in the GPT-2 L (AdapterL) model with 23.00M parameters?",
+    "answer": "23.00M",
+    "source": "data/papers\\LoRA.pdf",
+    "chunk_text": "GPT-2 L (FT)* 774.03M 68.5 8.78 46.0 69.9 2.45\nGPT-2 L (AdapterL) 0.88M 69.1\u00b1.1 8.68\u00b1.03 46.3\u00b1.0 71.4\u00b1.2 2.49\u00b1.0\nGPT-2 L (AdapterL) 23.00M 68.9\u00b1.3 8.70\u00b1.04 46.1\u00b1.1 71.3\u00b1.2 2.45\u00b1.02\nGPT-2 L (PreLayer)* 0.77M 70.3 8.85 46.2 71.7 2.47\nGPT-2 L (LoRA) 0.77M 70.4\u00b1.1 8.89\u00b1.02 46.8\u00b1.2 72.0\u00b1.2 2.47\u00b1.02\nTable 3: GPT-2 medium (M) and large (L) with different adaptation methods on the E2E NLG\nChallenge. For all metrics, higher is better. LoRA outperforms several baselines with comparable"
+  },
+  {
+    "question": "What is the color of the snow mentioned in the poem?",
+    "answer": "Bluish",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "The blindness of the light, the whiteness\nThe yellow of the sun is no more Of that white land. The footsteps, and\nIntrusive than the bluish snow The grasses in that light, and in the shade\nThat falls on all of us. I must have The menacing life.\nGrey thoughts and blue thoughts walk with me\nIf I am to go away at all. We played, too, once, in the warmest rooms.\nTo one content, there is one content\n-------- Generated Poem 2 -------- For all mankind. The forest glades\nAre all the more for being in fa"
+  },
+  {
+    "question": "What is the purpose of word embedding in NLP?",
+    "answer": "Word embedding is used for language modeling and feature learning techniques.",
+    "source": "data/papers\\SelfRAG.pdf",
+    "chunk_text": "are used to be measured.\nEvidence: Word embedding\nWord embedding is the collective name for a set of language modeling and feature learning\ntechniques in natural language processing (NLP) where words or phrases from the vocabulary\nare mapped to vectors of real numbers. Conceptually it involves a mathematical embedding\nfrom a space with one dimension per word to a continuous vector space with a much lower\ndimension. Output: Word embeddings are useful for tasks such as sentiment analysis, text"
+  },
+  {
+    "question": "What happens when the critic predicts Retrieve =Yes?",
+    "answer": "Passages are retrieved using the input and the entire output as queries.",
+    "source": "data/papers\\SelfRAG.pdf",
+    "chunk_text": "first run it on input data from the aforementioned datasets, to predict whether retrieval is needed or\nnot. For the instances where the critic predicts Retrieve =No, we only predict the ISUSE given input\nand output. For the instances where the critic predicts Retrieve =Yes, we first retrieve passages using\nthe input and the entire output as queries, to find passages that are relevant to the entire output. We"
+  },
+  {
+    "question": "Who empirically defined the tasks of zero-shot (dense) retrieval for the neural retrieval community?",
+    "answer": "Thakur et al. (2021)",
+    "source": "data/papers\\HyDE.pdf",
+    "chunk_text": "instruction following generative LLM, as described\nabove.\nZero-Shot Dense Retrieval The tasks of zero-\nshot (dense) retrieval are arguably empirically de-\n\ufb01ned by Thakur et al. (2021) for the neural re-\ntrieval community. Their BEIR benchmark con-\nsists of diverse retrieval tasks. The paper and\nmany follow-up research generally consider the\nTransfer Learning setup where the dense re-\ntriever is \ufb01rst learned using a diverse and richly\nsupervised corpus and query collection, namely"
+  },
+  {
+    "question": "How many examples are in the GSM8K dataset?",
+    "answer": "1,319",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "Table 12: Summary of math word problem benchmarks we use in this paper with examples. N:\nnumber of evaluation examples.\nDataset N Example problem\nGSM8K 1,319 Josh decides to try \ufb02ipping a house. He buys a house for $80,000 and then puts\nin $50,000 in repairs. This increased the value of the house by 150%. How\nmuch pro\ufb01t did he make?\nSV AMP 1,000 Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each\npack. How much do you have to pay to buy each pack?"
+  },
+  {
+    "question": "What is the name of the variant of BERT that is trained on a much larger scale?",
+    "answer": "DeBERTa",
+    "source": "data/papers\\LoRA.pdf",
+    "chunk_text": "presented in Table 2 (Top Three Sections). See Section D.1 for details on the hyperparameters used.\n5.3 D EBERTA XXL\nDeBERTa (He et al., 2021) is a more recent variant of BERT that is trained on a much larger\nscale and performs very competitively on benchmarks such as GLUE (Wang et al., 2019) and Su-\nperGLUE (Wang et al., 2020). We evaluate if LoRA can still match the performance of a fully\n\ufb01ne-tuned DeBERTa XXL (1.5B) on GLUE. The result is presented in Table 2 (Bottom Section)."
+  },
+  {
+    "question": "What is the status of Helsinki as a capital city in relation to the EU?",
+    "answer": "Helsinki is the northernmost capital of an EU member state.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "Vantaa, Kauniainen, and surrounding commuter towns. It is the world\u2019s\nnorthernmost metro area of over one million people, and the city is the\nnorthernmost capital of an EU member state. The Helsinki metropolitan\narea is the third largest metropolitan area in the Nordic countries\nafter Stockholm and Copenhagen, and the City of Helsinki is the third\nlargest after Stockholm and Oslo. Helsinki is Finland\u2019s major political,\neducational, financial, cultural, and research center as well as one of"
+  },
+  {
+    "question": "What challenges does the research community expect to face in the future?",
+    "answer": "The broader research community will face challenges due to the increased interest in language models from malicious actors.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "how scalable the operation can be.\nBased on our analysis of this model and analysis of threat actors and the landscape, we suspect AI researchers will\neventually develop language models that are suf\ufb01ciently consistent and steerable that they will be of greater interest to\nmalicious actors. We expect this will introduce challenges for the broader research community, and hope to work on\nthis through a combination of mitigation research, prototyping, and coordinating with other technical developers"
+  },
+  {
+    "question": "What is the title of the 2021 research paper by Aslanides et al.?",
+    "answer": "Scaling language models: Methods, analysis & insights from training Gopher.",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "Aslanides, Sarah Henderson, Roman Ring, Susannah Young, et al. 2021. Scaling language models:\nMethods, analysis & insights from training Gopher. arXiv preprint arXiv:2112.11446.\nColin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi\nZhou, Wei Li, and Peter J Liu. 2020. Exploring the limits of transfer learning with a uni\ufb01ed\ntext-to-text transformer. Journal of Machine Learning Research, 21:1\u201367."
+  },
+  {
+    "question": "What are two prominent strategies for efficient adaptations in language modeling?",
+    "answer": "Adding adapter layers or optimizing some forms of the input layer activations.",
+    "source": "data/papers\\LoRA.pdf",
+    "chunk_text": "of works have sought to make model adaptation more parameter- and compute-ef\ufb01cient. See Sec-\ntion 6 for a survey of some of the well-known works. Using language modeling as an example, there\nare two prominent strategies when it comes to ef\ufb01cient adaptations: adding adapter layers (Houlsby\net al., 2019; Rebuf\ufb01 et al., 2017; Pfeiffer et al., 2021; R\u00a8uckl\u00b4e et al., 2020) or optimizing some forms\nof the input layer activations (Li & Liang, 2021; Lester et al., 2021; Hambardzumyan et al., 2020;"
+  },
+  {
+    "question": "What is the average speedup of FlashAttention compared to the Transformer model?",
+    "answer": "2.4 times",
+    "source": "data/papers\\FlashAttention.pdf",
+    "chunk_text": "Table 3: The performance of standard attention,FlashAttention, block-sparse FlashAttention, and approximate\nattention baselines on the Long-Range-Arena benchmarks.\nModels ListOps Text Retrieval Image Path\ufb01nder Avg Speedup\nTransformer 36.0 63.6 81.6 42.3 72.7 59.3 -\nFlashAttention 37.6 63.9 81.4 43.5 72.7 59.8 2.4\u0002\nBlock-sparse FlashAttention 37.0 63.0 81.3 43.6 73.3 59.6 2.8\u0002\nLinformer [84] 35.6 55.9 77.7 37.8 67.6 54.9 2.5\u0002\nLinear Attention [50] 38.8 63.2 80.7 42.6 72.5 59.6 2.3\u0002"
+  },
+  {
+    "question": "What is noted as a limitation in Appendix D.1?",
+    "answer": "Chains of thought in a factual manner or in any real-world scenario.",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "is noted as a limitation in Appendix D.1 (and note that we do not suggest using such\nchains of thought in a factual manner or in any real-world scenario).\n(d) Have you read the ethics review guidelines and ensured that your paper conforms to\nthem? [Yes]\n2. If you are including theoretical results...\n(a) Did you state the full set of assumptions of all theoretical results? [N/A]\n(b) Did you include complete proofs of all theoretical results? [N/A]\n3. If you ran experiments..."
+  },
+  {
+    "question": "What is the title of the 2015 research paper by Vinyals & Kaiser, Koo, Petrov, Sutskever, and Hinton?",
+    "answer": "Grammar as a foreign language.",
+    "source": "data/papers\\Attention Is All You Need.pdf",
+    "chunk_text": "[37] Vinyals & Kaiser, Koo, Petrov, Sutskever, and Hinton. Grammar as a foreign language. In\nAdvances in Neural Information Processing Systems , 2015.\n[38] Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang\nMacherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, et al. Google\u2019s neural machine\ntranslation system: Bridging the gap between human and machine translation. arXiv preprint\narXiv:1609.08144, 2016."
+  },
+  {
+    "question": "What is the title of the 2020 arXiv preprint mentioned in the text?",
+    "answer": "Language (technology) is power: A critical survey of\" bias\" in nlp.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "arXiv:1806.01946.\nBender, E. M., Gebru, T., McMillan-Major, A., and Shmitchell, S. (2021). On the dangers of stochastic\nparrots: Can language models be too big? In Proceedings of the 2021 ACM Conference on\nFairness, Accountability, and Transparency, pages 610\u2013623.\nBlodgett, S. L., Barocas, S., Daum\u00e9 III, H., and Wallach, H. (2020). Language (technology) is power:\nA critical survey of\" bias\" in nlp. arXiv preprint arXiv:2005.14050.\n21"
+  },
+  {
+    "question": "What are the two main drawbacks of the methods mentioned in Section 3?",
+    "answer": "They introduce inference latency and reduce the model's usable sequence length.",
+    "source": "data/papers\\LoRA.pdf",
+    "chunk_text": "often introduce inference latency (Houlsby et al., 2019; Rebuf\ufb01 et al., 2017) by extending model\ndepth or reduce the model\u2019s usable sequence length (Li & Liang, 2021; Lester et al., 2021; Ham-\nbardzumyan et al., 2020; Liu et al., 2021) (Section 3). More importantly, these method often fail to\nmatch the \ufb01ne-tuning baselines, posing a trade-off between ef\ufb01ciency and model quality.\nWe take inspiration from Li et al. (2018a); Aghajanyan et al. (2020) which show that the learned"
+  },
+  {
+    "question": "Where was the 55th Annual Meeting of the Association for Computational Linguistics held?",
+    "answer": "Vancouver, Canada",
+    "source": "data/papers\\RAG.pdf",
+    "chunk_text": "https://www.aclweb.org/anthology/P17-1171.\n[6] Eunsol Choi, Daniel Hewlett, Jakob Uszkoreit, Illia Polosukhin, Alexandre Lacoste, and\nJonathan Berant. Coarse-to-\ufb01ne question answering for long documents. In Proceedings of the\n55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers),\npages 209\u2013220, Vancouver, Canada, July 2017. Association for Computational Linguistics. doi:\n10.18653/v1/P17-1020. URL https://www.aclweb.org/anthology/P17-1020.\n10"
+  },
+  {
+    "question": "What year did Brants et al. show the benefits of using language models trained on 2 trillion tokens?",
+    "answer": "2007",
+    "source": "data/papers\\LLaMa.pdf",
+    "chunk_text": "Schmidhuber, 1997; Graves, 2013). More recently,\ntransformer networks, based on self-attention, have\nled to important improvements, especially for cap-\nturing long range dependencies (Vaswani et al.,\n2017; Radford et al., 2018; Dai et al., 2019).\nScaling. There is a long history of scaling for\nlanguage models, for both the model and dataset\nsizes. Brants et al. (2007) showed the bene\ufb01ts of\nusing language models trained on 2 trillion tokens,\nresulting in 300 billionn-grams, on the quality of"
+  },
+  {
+    "question": "What is the LAMBADA dataset used for?",
+    "answer": "The LAMBADA dataset tests the modeling of long-range dependencies in text.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "3.1.2 LAMBADA\nThe LAMBADA dataset [PKL+16] tests the modeling of long-range dependencies in text \u2013 the model is asked to\npredict the last word of sentences which require reading a paragraph of context. It has recently been suggested that the\ncontinued scaling of language models is yielding diminishing returns on this dif\ufb01cult benchmark. [BHT+20] re\ufb02ect on\nthe small 1.5% improvement achieved by a doubling of model size between two recent state of the art results ([SPP+19]\n11"
+  },
+  {
+    "question": "What is the goal of the proposed attention algorithm?",
+    "answer": "To reduce the amount of HBM accesses to sub-quadratic in N.",
+    "source": "data/papers\\FlashAttention.pdf",
+    "chunk_text": "3.1 An E\ufb03cient Attention Algorithm With Tiling and Recomputation\nGiven the inputsQ\u0096 K\u0096 V2 R\ud835\udc41\u0002\ud835\udc51 in HBM, we aim to compute the attention outputO2 R\ud835\udc41\u0002\ud835\udc51 and write it to\nHBM. Our goal is to reduce the amount of HBM accesses (to sub-quadratic in\ud835\udc41).\nWe apply two established techniques (tiling, recomputation) to overcome the technical challenge of\ncomputing exact attention in sub-quadratic HBM accesses. We describe this in Algorithm 1. The main idea"
+  },
+  {
+    "question": "What type of datasets did InstructGPT use for evaluation?",
+    "answer": "Winogender and CrowS-Pairs datasets.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "InstructGPT on modi\ufb01ed versions of the Winogender (Rudinger et al., 2018) and CrowS-Pairs (Nangia\net al., 2020) datasets. These datasets consists of pairs of sentences which can highlight potential bias.\nWe calculate the relative probabilities of producing the sentences in each pair and the entropy (in bits)\nof the associated binary probability distributions. Perfectly unbiased models will have no preference\nbetween the sentences in each pair and will therefore have maximum entropy. By this metr"
+  },
+  {
+    "question": "What is the title of the 2021 paper by Alon Talmor et al.?",
+    "answer": "CommonsenseQA 2.0: Exposing the limits of ai through gami\ufb01cation.",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "thought: Teaching pre-trained models to systematically reason over implicit knowledge. NeurIPS.\nAlon Talmor, Ori Yoran, Ronan Le Bras, Chandra Bhagavatula, Yoav Goldberg, Yejin Choi, and\nJonathan Berant. 2021. CommonsenseQA 2.0: Exposing the limits of ai through gami\ufb01cation.\nNeurIPS Track on Datasets and Benchmarks.\nYi Tay, Mostafa Dehghani, Vinh Q Tran, Xavier Garcia, Dara Bahri, Tal Schuster, Huaixiu Steven\nZheng, Neil Houlsby, and Donald Metzler. 2022. Unifying language learning paradigms. ar"
+  },
+  {
+    "question": "Were supervision signals involved in the HyDE model?",
+    "answer": "No, supervision signals were only involved in instruction learning of the backbone LLM.",
+    "source": "data/papers\\HyDE.pdf",
+    "chunk_text": "explicitly modeled nor computed. Instead, the\nretrieval task is cast into two NLU and NLG tasks.\nHyDE appears unsupervised. No model is trained\nin HyDE: both the generative model and the con-\ntrastive encoder remain intact. Supervision signals\nwere only involved in instruction learning of our\nbackbone LLM.\nIn our experiments, we showHyDE using Instruct-\nGPT (Ouyang et al., 2022) and Contriever (Izacard\net al., 2021) as backbone models signi\ufb01cantly out-\nperforms the previous state-of-the-art Cont"
+  },
+  {
+    "question": "What were the initial priorities of the user in the model's criteria?",
+    "answer": "The user prioritized helpfulness above truthfulness and harmlessness.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "the user as the most important criteria (above truthfulness and harmlessness), whereas in our \ufb01nal\nevaluations we had labelers prioritize truthfulness and harmlessness. We are exploring research\navenues for having the model sometimes prioritizing truthfulness and harmlessness over helpfulness\nduring training, particularly through the use of refusals: having the model refuse to answer certain\ninstructions. This comes with new challenges: different applications have different levels of risk, and"
+  },
+  {
+    "question": "What is the precision used for training the model?",
+    "answer": "FP16 precision using Apex AMP with O2 optimization level.",
+    "source": "data/papers\\FlashAttention.pdf",
+    "chunk_text": "modeling) reaches the target 72.0%, and the wall-clock run-time is measured. We train with FP16 precision\nusing Apex AMP (with O2 optimization level).\nWe compare our results with the reported training speed from Nvidia that was submitted to MLPerf 1.1\n(Table 1).\nWe use the same train / validation data split provided by MLPerf 1.1 reference implementation. In\nparticular, we evaluate on the same 10000 validation examples as the baseline from Nvidia."
+  },
+  {
+    "question": "How many trials are used to measure the latency of a single forward pass?",
+    "answer": "100 trials are used to measure the latency of a single forward pass.",
+    "source": "data/papers\\LoRA.pdf",
+    "chunk_text": "the added latency can be signi\ufb01cant.\nWe measure the latency of a single forward pass on an NVIDIA Quadro RTX8000 by averaging\nover 100 trials. We vary the input batch size, sequence length, and the adapter bottleneck dimension\nr. We test two adapter designs: the original one by Houlsby et al. (2019), which we call Adapter H,\nand a recent, more ef\ufb01cient variant by Lin et al. (2020), which we call Adapter L. See Section 5.1"
+  },
+  {
+    "question": "What is an example of an indirect task specification?",
+    "answer": "Using several examples of the desired behavior.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "Excerpt of labeling instructions on the API prompt distribution\nYou are given a text-based description of a task, submitted by a user. This task description may be in the form of an explicit\ninstruction (e.g. \u201cWrite a story about a wise frog.\u201d). The task may also be speci\ufb01ed indirectly, for example by using several\nexamples of the desired behavior (e.g. given a sequence of movie reviews followed by their sentiment, followed by one movie"
+  },
+  {
+    "question": "What was the size of the Christian Methodist denomination in the early 20th century?",
+    "answer": "The Christian Methodist denomination was the largest Protestant denomination in the U.S. with 12.5 million members is incorrect, it was actually 12.5 million members is not mentioned in the early 20th century, but it was the largest Protestant denomination in the U.S.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "strengthen a ban on the ordination of LGBTQ clergy and to write new rules\nthat will \"discipline\" clergy who officiate at same-sex weddings. But\nthose who opposed these measures have a new plan: They say they will form a\nseparate denomination by 2020, calling their church the Christian Methodist\ndenomination.\nThe Post notes that the denomination, which claims 12.5 million members, was\nin the early 20th century the \"largest Protestant denomination in the U.S.,\""
+  },
+  {
+    "question": "What is the size of the GPT-3 model used in the research?",
+    "answer": "175B",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "those from the 175B GPT-3. Error bars throughout the paper are 95% con\ufb01dence intervals.\nused for many recent large LMs\u2014predicting the next token on a webpage from the internet\u2014is\ndifferent from the objective \u201cfollow the user\u2019s instructions helpfully and safely\u201d (Radford et al., 2019;\nBrown et al., 2020; Fedus et al., 2021; Rae et al., 2021; Thoppilan et al., 2022). Thus, we say that\nthe language modeling objective is misaligned. Averting these unintended behaviors is especially"
+  },
+  {
+    "question": "What is the potential source of biases in the training data of LLaMA-65B?",
+    "answer": "The training data contains a large proportion of data from the Web.",
+    "source": "data/papers\\LLaMa.pdf",
+    "chunk_text": "5 Bias, Toxicity and Misinformation\nLarge language models have been showed to re-\nproduce and amplify biases that are existing in\nthe training data (Sheng et al., 2019; Kurita et al.,\n2019), and to generate toxic or offensive con-\ntent (Gehman et al., 2020). As our training dataset\ncontains a large proportion of data from the Web,\nwe believe that it is crucial to determine the po-\ntential for our models to generate such content.\nTo understand the potential harm of LLaMA-65B,"
+  },
+  {
+    "question": "What is the perplexity score of Perplexity.ai?",
+    "answer": "71.2",
+    "source": "data/papers\\SelfRAG.pdf",
+    "chunk_text": "Perplexity.ai \u2013 \u2013 \u2013 \u2013 71.2 \u2013 \u2013 \u2013 \u2013 \u2013\nBaselines without retrieval\nLlama27B 14.7 30.5 34.2 21.8 44.5 7.9 15.3 19.0 \u2013 \u2013\nAlpaca7B 23.6 54.5 49.8 45.0 45.8 18.8 29.4 61.7 \u2013 \u2013\nLlama213B 14.7 38.5 29.4 29.4 53.4 7.2 12.4 16.0 \u2013 \u2013\nAlpaca13 B 24.4 61.3 55.5 54.9 50.2 22.9 32.0 70.6 \u2013 \u2013\nCoVE65B * \u2013 \u2013 \u2013 \u2013 71.2 \u2013 \u2013 \u2013 \u2013 \u2013\nBaselines with retrieval\nToolformer*6B \u2013 48.8 \u2013 \u2013 \u2013 \u2013 \u2013 \u2013 \u2013 \u2013\nLlama27B 38.2 42.5 30.0 48.0 78.0 15.2 22.1 32.0 2.9 4.0\nAlpaca7B 46.7 64.1 40.2 48.0 76.6 30.9 33.3 57.9 5.5 7.2"
+  },
+  {
+    "question": "What is the name of the error category mentioned in the text?",
+    "answer": "symbol mapping error",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "chain of thought is correct except for the number symbols, and it could be made totally correct by\nmodifying only the equations and not the words. As one might argue that they could simply place\nthe correct \ufb01nal equation in any chain of thought, we constrain this category to chains of thought\nwhere the chain of thought can be modi\ufb01ed to be a completely correct reasoning process (not just\n\ufb01nal answer). An example of this error category is shown in Table 10: \u201csymbol mapping error\u201d."
+  },
+  {
+    "question": "What is the batch size used in the experiment?",
+    "answer": "Batch size 64",
+    "source": "data/papers\\FlashAttention.pdf",
+    "chunk_text": "Table 7: Runtime (ms) ofFlashAttentioncompared to FMHA by sequence length, with masking and dropout,\nmeasured on an A100-SXM4-40GB GPU. Batch size 64, 16 heads, head dimension 64 (i.e., BERT-large size).\nAttention Method 128 256 512\nApex FMHA forward 0.10 0.29 1.14\nFlashA ttentionforward 0.08 0.22 0.81\nApex FMHA backward 0.17 0.52 1.81\nFlashA ttentionbackward 0.20 0.53 2.00\nApex FMHA forward + backward 0.27 0.81 2.95\nFlashA ttentionforward + backward 0.28 0.75 2.81"
+  },
+  {
+    "question": "What is the accuracy of the Billion of tokens model in the SIQA dataset?",
+    "answer": "50, 55, 60, 65, 70, 75, 80",
+    "source": "data/papers\\LLaMa.pdf",
+    "chunk_text": "0 250 500 750 1000 1250 1500\n20\n30\n40\n50\n60\n70Accuracy\nTriviaQA\n0 250 500 750 1000 1250 1500\n50\n55\n60\n65\n70\n75\n80\n85\nHellaSwag\n0 250 500 750 1000 1250 1500\n0\n5\n10\n15\n20\n25\n30\n35\nNaturalQuestions\n0 250 500 750 1000 1250 1500\nBillion of tokens\n40\n42\n44\n46\n48\n50\n52Accuracy\nSIQA\n0 250 500 750 1000 1250 1500\nBillion of tokens\n50\n55\n60\n65\n70\n75\n80\nWinoGrande\n0 250 500 750 1000 1250 1500\nBillion of tokens\n65.0\n67.5\n70.0\n72.5\n75.0\n77.5\n80.0\n82.5\nPIQA\nLLaMA 7B\nLLaMA 13B\nLLaMA 33B\nLLaMA 65B\nChinchilla"
+  },
+  {
+    "question": "What is the year of publication for the paper 'Scaling laws for neural language models'?",
+    "answer": "2020",
+    "source": "data/papers\\Retrieval-Augmented Generation for Large Language Models- A Survey.pdf",
+    "chunk_text": "streaming language models with attention sinks,\u201d arXiv preprint\narXiv:2309.17453, 2023.\n[173] T. Zhang, S. G. Patil, N. Jain, S. Shen, M. Zaharia, I. Stoica, and J. E.\nGonzalez, \u201cRaft: Adapting language model to domain specific rag,\u201d\narXiv preprint arXiv:2403.10131 , 2024.\n[174] J. Kaplan, S. McCandlish, T. Henighan, T. B. Brown, B. Chess,\nR. Child, S. Gray, A. Radford, J. Wu, and D. Amodei, \u201cScaling laws\nfor neural language models,\u201d arXiv preprint arXiv:2001.08361 , 2020."
+  },
+  {
+    "question": "What is the title of the paper by Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf?",
+    "answer": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "babysitter: On biases in language generation. arXiv preprint arXiv:1909.01326, 2019.\n[SDCW19] Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf. DistilBERT, a distilled version of\nBERT: smaller, faster, cheaper and lighter. arXiv preprint arXiv:1910.01108, 2019.\n[SDSE19] Roy Schwartz, Jesse Dodge, Noah A. Smith, and Oren Etzioni. Green AI. CoRR, abs/1907.10597, 2019.\n[SHB15] Rico Sennrich, Barry Haddow, and Alexandra Birch. Improving neural machine translation models with"
+  },
+  {
+    "question": "What type of tasks are sentence-level tasks in language model pre-training?",
+    "answer": "They include natural language inference and paraphrasing.",
+    "source": "data/papers\\BERT.pdf",
+    "chunk_text": "Language model pre-training has been shown to\nbe effective for improving many natural language\nprocessing tasks (Dai and Le, 2015; Peters et al.,\n2018a; Radford et al., 2018; Howard and Ruder,\n2018). These include sentence-level tasks such as\nnatural language inference (Bowman et al., 2015;\nWilliams et al., 2018) and paraphrasing (Dolan\nand Brockett, 2005), which aim to predict the re-\nlationships between sentences by analyzing them\nholistically, as well as token-level tasks such as"
+  },
+  {
+    "question": "What are the names of the public NLP datasets where performance regressions were observed compared to GPT-3 during RLHF fine-tuning?",
+    "answer": "SQuAD, DROP, HellaSwag, and WMT 2015 French to English translation.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "Winogender (Rudinger et al., 2018) and CrowSPairs (Nangia et al., 2020) datasets.\nWe can minimize performance regressions on public NLP datasets by modifying our RLHF\n\ufb01ne-tuning procedure. During RLHF \ufb01ne-tuning, we observe performance regressions compared\nto GPT-3 on certain public NLP datasets, notably SQuAD (Rajpurkar et al., 2018), DROP (Dua et al.,\n2019), HellaSwag (Zellers et al., 2019), and WMT 2015 French to English translation (Bojar et al.,"
+  },
+  {
+    "question": "What happens to the absolute toxicity numbers when using the standard prompt sampling for this dataset?",
+    "answer": "They are not inflated.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "models perform with high input toxicity (see Figure 39 in Appendix E); this differs from the standard\nprompt sampling for this dataset, and thus our absolute toxicity numbers are in\ufb02ated.\nOur results are in Figure 7. We \ufb01nd that, when instructed to produce a safe and respectful output\n(\u201crespectful prompt\u201d), InstructGPT models generate less toxic outputs than those from GPT-3\naccording to the Perspective API. This advantage disappears when the respectful prompt is removed"
+  },
+  {
+    "question": "What is the title of the research paper?",
+    "answer": "Judging llm-as-a-judge with mt-bench and chatbot arena.",
+    "source": "data/papers\\Mixtral of Experts.pdf",
+    "chunk_text": "[33] Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang,\nZi Lin, Zhuohan Li, Dacheng Li, Eric Xing, et al. Judging llm-as-a-judge with mt-bench and\nchatbot arena. arXiv preprint arXiv:2306.05685, 2023.\n10"
+  },
+  {
+    "question": "Who are the authors of the paper 'Train large, then compress: Rethinking model size for efficient training and inference of transformers'?",
+    "answer": "Zhuohan Li, Eric Wallace, Sheng Shen, Kevin Lin, Kurt Keutzer, Dan Klein, and Joseph E. Gonzalez.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "[LWS+20] Zhuohan Li, Eric Wallace, Sheng Shen, Kevin Lin, Kurt Keutzer, Dan Klein, and Joseph E. Gonzalez.\nTrain large, then compress: Rethinking model size for ef\ufb01cient training and inference of transformers,\n2020.\n[LXL+17] Guokun Lai, Qizhe Xie, Hanxiao Liu, Yiming Yang, and Eduard Hovy. Race: Large-scale reading\ncomprehension dataset from examinations. arXiv preprint arXiv:1704.04683, 2017.\n[LYN+20] Sheng-Chieh Lin, Jheng-Hong Yang, Rodrigo Nogueira, Ming-Feng Tsai, Chuan-Ju Wang, and Jimmy"
+  },
+  {
+    "question": "How many computers were added to the server room from Monday to Thursday?",
+    "answer": "20 computers were added.",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "have now?\nA: Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9.\nThe answer is 9.\nQ: There were nine computers in the server room. Five more computers were installed each day, from monday\nto thursday. How many computers are now in the server room?\nA: There were originally 9 computers. For each of 4 days, 5 more computers were added. So 5 * 4 = 20\ncomputers were added. 9 + 20 is 29. The answer is 29."
+  },
+  {
+    "question": "What is the year of publication for the paper 'A human-inspired reading agent with gist memory of very long contexts'?",
+    "answer": "2024",
+    "source": "data/papers\\Retrieval-Augmented Generation for Large Language Models- A Survey.pdf",
+    "chunk_text": "and E. Grefenstette, \u201cThe narrativeqa reading comprehension chal-\nlenge,\u201d Transactions of the Association for Computational Linguistics ,\nvol. 6, pp. 317\u2013328, 2018.\n[123] K.-H. Lee, X. Chen, H. Furuta, J. Canny, and I. Fischer, \u201cA human-\ninspired reading agent with gist memory of very long contexts,\u201d arXiv\npreprint arXiv:2402.09727, 2024.\n[124] I. Stelmakh, Y . Luan, B. Dhingra, and M.-W. Chang, \u201cAsqa: Factoid\nquestions meet long-form answers,\u201d arXiv preprint arXiv:2204.06092 ,\n2022."
+  },
+  {
+    "question": "What was the value of \u03b1 chosen for the dataset?",
+    "answer": "\u03b1 = 9",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "corpus as the positive examples, and for the negative examples, we used un\ufb01ltered Common Crawl. We used\nthis classi\ufb01er to score Common Crawl documents. We kept each document in our dataset iff\nnp.random.pareto(\u03b1)> 1\u2212 document_score\nWe chose\u03b1 = 9 in order to take mostly documents the classi\ufb01er scored highly, but still include some documents\nthat were out of distribution.\u03b1 was chosen to match the distribution of scores from our classi\ufb01er on WebText."
+  },
+  {
+    "question": "What is the reason for using a smaller learning rate for PrefixLayer on the MNLI-100 set?",
+    "answer": "The training loss does not decrease as expected.",
+    "source": "data/papers\\LoRA.pdf",
+    "chunk_text": "crease the number of training examples, which might suggest that pre\ufb01x-based approaches are not\nsuitable for low-data tasks in GPT-3. LoRA achieves better performance than \ufb01ne-tuning on both\nMNLI-100 and MNLI-Full, and comparable results on MNLI-1k and MNLI-10K considering the\n(\u00b10.3) variance due to random seeds.\nThe training hyperparameters of different adaptation approaches on MNLI-n are reported in Ta-\nble 17. We use a smaller learning rate for Pre\ufb01xLayer on the MNLI-100 set, as the training "
+  },
+  {
+    "question": "What is the name of the research paper or project being referenced?",
+    "answer": "google-research/bert.",
+    "source": "data/papers\\BERT.pdf",
+    "chunk_text": "google-research/bert.\n2 Related Work\nThere is a long history of pre-training general lan-\nguage representations, and we brie\ufb02y review the\nmost widely-used approaches in this section.\n2.1 Unsupervised Feature-based Approaches\nLearning widely applicable representations of\nwords has been an active area of research for\ndecades, including non-neural (Brown et al., 1992;\nAndo and Zhang, 2005; Blitzer et al., 2006) and\nneural (Mikolov et al., 2013; Pennington et al.,\n2014) methods. Pre-trained word emb"
+  },
+  {
+    "question": "What is the conditional probability of the document z being 'Fermat' given x?",
+    "answer": "1.0",
+    "source": "data/papers\\REALM.pdf",
+    "chunk_text": "(b) REALM p(y = \u201cFermat\u201d | x, z) = 1 .0 (Conditional probability with document z =\u201c257 is . . . a Fermat prime.\nThus a regular polygon with 257 sides is constructible with c ompass . . . \u201d)\n(c) REALM p(y = \u201cFermat\u201d | x) = 0 .129 (Marginal probability, marginalizing over top 8 retrieved documents.)\nEncoder or Retriever We \ufb01rst aim to determine whether\nREALM pre-training improves the retriever or the encoder,\nor both. To do so, we can reset the parameters of either"
+  },
+  {
+    "question": "In what year was the paper 'Recursive deep models for semantic compositionality over a sentiment treebank' published?",
+    "answer": "2013",
+    "source": "data/papers\\Retrieval-Augmented Generation for Large Language Models- A Survey.pdf",
+    "chunk_text": "[156] R. Socher, A. Perelygin, J. Wu, J. Chuang, C. D. Manning, A. Y . Ng,\nand C. Potts, \u201cRecursive deep models for semantic compositionality\nover a sentiment treebank,\u201d in Proceedings of the 2013 conference on\nempirical methods in natural language processing , 2013, pp. 1631\u2013\n1642.\n[157] H. Husain, H.-H. Wu, T. Gazit, M. Allamanis, and M. Brockschmidt,\n\u201cCodesearchnet challenge: Evaluating the state of semantic code\nsearch,\u201d arXiv preprint arXiv:1909.09436 , 2019."
+  },
+  {
+    "question": "What are the two frameworks that Ragas integrates with?",
+    "answer": "llama-index and Langchain",
+    "source": "data/papers\\Ragas.pdf",
+    "chunk_text": "of retrieval augmented generation systems. We fo-\ncus on settings where reference answers may not be\navailable, and where we want to estimate different\nproxies for correctness, in addition to the useful-\nness of the retrieved passages. The Ragas frame-\nwork provides an integration with both llama-index\nand Langchain, the most widely used frameworks\nfor building RAG solutions, thus enabling devel-\nopers to easily integrate Ragas into their standard\nworkflow.\n2 Related Work"
+  },
+  {
+    "question": "Who co-authored the paper 'Roberta: A robustly optimized bert pretraining approach'?",
+    "answer": "Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M., Zettlemoyer, L., and Stoyanov, V.",
+    "source": "data/papers\\REALM.pdf",
+    "chunk_text": "REALM: Retrieval-Augmented Language Model Pre-Training\nLiu, Y ., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D.,\nLevy, O., Lewis, M., Zettlemoyer, L., and Stoyanov, V .\nRoberta: A robustly optimized bert pretraining approach.\narXiv preprint arXiv:1907.11692 , 2019.\nMikolov, T., Chen, K., Corrado, G., and Dean, J. Ef\ufb01cient\nestimation of word representations in vector space. arXiv\npreprint arXiv:1301.3781, 2013a.\nMikolov, T., Sutskever, I., Chen, K., Corrado, G. S.,"
+  },
+  {
+    "question": "What is the overall outcome of fine-tuning large language models using human preferences?",
+    "answer": "Our results indicate that it significantly improves their behavior on a wide range of tasks.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "instructions, make up facts, give long hedging answers to simple questions, or fail to detect instructions\nwith false premises.\nOverall, our results indicate that \ufb01ne-tuning large language models using human preferences signi\ufb01-\ncantly improves their behavior on a wide range of tasks, though much work remains to be done to\nimprove their safety and reliability.\nThe rest of this paper is structured as follows: We \ufb01rst detail related work in Section 2, before diving"
+  },
+  {
+    "question": "What is the title of the paper by Tri Dao et al. in ICLR, 2022?",
+    "answer": "Pixelated butterfly: Simple and efficient sparse training for neural network models.",
+    "source": "data/papers\\FlashAttention.pdf",
+    "chunk_text": "[17] Tri Dao, Beidi Chen, Kaizhao Liang, Jiaming Yang, Zhao Song, Atri Rudra, and Christopher R\u00e9.\nPixelated butter\ufb02y: Simple and e\ufb03cient sparse training for neural network models. InInternational\nConference on Learning Representations (ICLR), 2022.\n[18] Tri Dao, Beidi Chen, Nimit Sohoni, Arjun Desai, Michael Poli, Jessica Grogan, Alexander Liu, Aniruddh\nRao, Atri Rudra, and Christopher R\u00e9. Monarch: Expressive structured matrices for e\ufb03cient and accurate"
+  },
+  {
+    "question": "What is the title of the paper where the auto-encoder is discussed?",
+    "answer": "Less is more: Pre-train a strong Siamese encoder for dense text retrieval using a weak decoder.",
+    "source": "data/papers\\HyDE.pdf",
+    "chunk_text": "auto-encoder. ArXiv, abs/2205.12035.\nShuqi Lu, Di He, Chenyan Xiong, Guolin Ke, Waleed\nMalik, Zhicheng Dou, Paul Bennett, Tie-Yan Liu,\nand Arnold Overwijk. 2021. Less is more: Pre-\ntrain a strong Siamese encoder for dense text re-\ntrieval using a weak decoder. In Proceedings of the\n2021 Conference on Empirical Methods in Natural\nLanguage Processing, pages 2780\u20132791, Online and\nPunta Cana, Dominican Republic. Association for\nComputational Linguistics.\nDonald Metzler, Yi Tay, Dara Bahri, and Marc "
+  },
+  {
+    "question": "What is the URL of the paper 'A knowledge-grounded neural conversation model'?",
+    "answer": "https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16710.",
+    "source": "data/papers\\RAG.pdf",
+    "chunk_text": "2020. URL https://arxiv.org/abs/2004.07202.\n[15] Marjan Ghazvininejad, Chris Brockett, Ming-Wei Chang, Bill Dolan, Jianfeng Gao, Wen\ntau Yih, and Michel Galley. A knowledge-grounded neural conversation model. In AAAI\nConference on Arti\ufb01cial Intelligence, 2018. URL https://www.aaai.org/ocs/index.php/\nAAAI/AAAI18/paper/view/16710.\n[16] Katja Grace, John Salvatier, Allan Dafoe, Baobao Zhang, and Owain Evans. When will AI\nexceed human performance? evidence from AI experts. CoRR, abs/1705.08807, 2017"
+  },
+  {
+    "question": "What is the difference in BLEU score between few shot GPT-3 and the overall SOTA for Ro-En?",
+    "answer": "The difference is 0.5 BLEU.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "few shot GPT-3 outperforms the best supervised result we could \ufb01nd but due to our unfamiliarity with the literature and\nthe appearance that these are un-competitive benchmarks we do not suspect those results represent true state of the art.\nFor Ro-En, few shot GPT-3 performs within 0.5 BLEU of the overall SOTA which is achieved by a combination of\nunsupervised pretraining, supervised \ufb01netuning on 608K labeled examples, and backtranslation [LHCG19b]."
+  },
+  {
+    "question": "How many parameters does the 1.3B parameter InstructGPT model have compared to the 175B GPT-3 model?",
+    "answer": "The 1.3B parameter InstructGPT model has over 100x fewer parameters than the 175B GPT-3 model.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "on our method.\nsizes (1.3B, 6B, and 175B parameters), and all of our models use the GPT-3 architecture. Our main\n\ufb01ndings are as follows:\nLabelers signi\ufb01cantly prefer InstructGPT outputs over outputs from GPT-3. On our test set,\noutputs from the 1.3B parameter InstructGPT model are preferred to outputs from the 175B GPT-3,\ndespite having over 100x fewer parameters. These models have the same architecture, and differ only"
+  },
+  {
+    "question": "What are some common methods used in query optimization?",
+    "answer": "Query rewriting, query transformation, query expansion, and other techniques.",
+    "source": "data/papers\\Retrieval-Augmented Generation for Large Language Models- A Survey.pdf",
+    "chunk_text": "data granularity, optimizing index structures, adding metadata,\nalignment optimization, and mixed retrieval. While the goal\nof query optimization is to make the user\u2019s original question\nclearer and more suitable for the retrieval task. Common\nmethods include query rewriting query transformation, query\nexpansion and other techniques [7], [9]\u2013[11].\nPost-Retrieval Process. Once relevant context is retrieved,\nit\u2019s crucial to integrate it effectively with the query. The main"
+  },
+  {
+    "question": "What makes the memory of the model human-readable?",
+    "answer": "It is comprised of raw text rather than distributed representations.",
+    "source": "data/papers\\RAG.pdf",
+    "chunk_text": "fact embeddings [15, 13]. A key feature of our memory is that it is comprised of raw text rather\ndistributed representations, which makes the memory both (i) human-readable, lending a form of\ninterpretability to our model, and (ii) human-writable, enabling us to dynamically update the model\u2019s\nmemory by editing the document index. This approach has also been used in knowledge-intensive\ndialog, where generators have been conditioned on retrieved text directly, albeit obtained via TF-IDF"
+  },
+  {
+    "question": "What does HyDE seek to improve in retrieval?",
+    "answer": "retrieval relevance",
+    "source": "data/papers\\Retrieval-Augmented Generation for Large Language Models- A Survey.pdf",
+    "chunk_text": "ploying sub-queries and hypothetical document embeddings\n(HyDE) [11] seeks to improve retrieval relevance by focusing\non embedding similarities between generated answers and real\ndocuments.\nAdjustments in module arrangement and interaction, such\nas the Demonstrate-Search-Predict (DSP) [23] framework\nand the iterative Retrieve-Read-Retrieve-Read flow of ITER-\nRETGEN [14], showcase the dynamic use of module out-\nputs to bolster another module\u2019s functionality, illustrating a"
+  },
+  {
+    "question": "What type of test sets are considered for each symbolic reasoning task?",
+    "answer": "An in-domain test set and an out-of-domain (OOD) test set.",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "the coin (e.g., \u201cA coin is heads up. Phoebe \ufb02ips the coin.\nOsvaldo does not \ufb02ip the coin. Is the coin still heads up?\u201d\n\u2192 \u201cno\u201d).\nAs the construction of these symbolic reasoning tasks is\nwell-de\ufb01ned, for each task we consider anin-domain test\nset for which examples had the same number of steps as\nthe training/few-shot exemplars, as well as an out-of-domain (OOD) test set, for which evaluation\nexamples had more steps than those in the exemplars. For last letter concatenation, the model only"
+  },
+  {
+    "question": "How many respondents participated in the labeler satisfaction survey?",
+    "answer": "19 respondents participated in the labeler satisfaction survey.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "Figure 11: Complete instructions given to labelers for evaluating model outputs for toxicity on the\nRealToxicityPrompts distribution.\nyoung (75% less than 35 years old), fairly balanced between male and female genders, and mostly\ncome from the US or Southeast Asia.\nB.4 Labeler satisfaction survey\nIn combination with our demographics survey, we also sent out a survey to obtain feedback on the\ntask. We show the results from the 19 respondents in Table 13. Overall, our labelers enjoyed the"
+  },
+  {
+    "question": "What is the precision of the SELF-RAG model on the 50k dataset?",
+    "answer": "45.5",
+    "source": "data/papers\\SelfRAG.pdf",
+    "chunk_text": "Preprint.\nPQA Med AS\n(acc) (acc) (em)\nSELF -RAG (50k) 45.5 73.5 32.1\nTraining\nNo Retriever R 43.6 67.8 31.0\nNo Critic C 42.6 72.0 18.1\nTest\nNo retrieval 24.7 73.0 \u2013\nHard constraints 28.3 72.6 \u2013\nRetrieve top1 41.8 73.1 28.6\nRemove ISSUP 44.1 73.2 30.6\n(a) Ablation\n1 2\n70.0\n70.5Precision\n1 2\nWeight for IsSupport\n90\n95Mauve\n (b) Customization\n0.0 0.2 0.4 0.6\n0.98\n0.99\n0.99\n1.00Accuracy\nPubHealth\n0.0 0.2 0.4 0.6\nRetrieval Threshold\n0.6\n0.8\n1.0Accuracy\nPopQA\n0.0\n0.5\n1.0\nFrequency\n0.25\n0.50\n0.75\n1.00\n"
+  },
+  {
+    "question": "Who are the editors of Advances in Neural Information Processing Systems 30?",
+    "answer": "S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett.",
+    "source": "data/papers\\RAG.pdf",
+    "chunk_text": "S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett, editors,Advances in Neural\nInformation Processing Systems 30, pages 5998\u20136008. Curran Associates, Inc., 2017. URL\nhttp://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf .\n[59] Ashwin Vijayakumar, Michael Cogswell, Ramprasaath Selvaraju, Qing Sun, Stefan Lee, David\nCrandall, and Dhruv Batra. Diverse beam search for improved description of complex scenes."
+  },
+  {
+    "question": "What is the name of the dataset used to evaluate the MNLI accuracy?",
+    "answer": "MNLI",
+    "source": "data/papers\\BERT.pdf",
+    "chunk_text": "In Section 3.1, we mention that BERT uses a\nmixed strategy for masking the target tokens when\npre-training with the masked language model\n(MLM) objective. The following is an ablation\nstudy to evaluate the effect of different masking\nstrategies.\n200 400 600 800 1,000\n76\n78\n80\n82\n84\nPre-training Steps (Thousands)\nMNLI Dev Accuracy\nBERTBASE (Masked LM)\nBERTBASE (Left-to-Right)\nFigure 5: Ablation over number of training steps. This\nshows the MNLI accuracy after \ufb01ne-tuning, starting"
+  },
+  {
+    "question": "What is the assumption made about the distribution of vqij in this paper?",
+    "answer": "The distribution of vqij is assumed to be uni-modal.",
+    "source": "data/papers\\HyDE.pdf",
+    "chunk_text": "Ouyang et al., 2022). Generating examples also\nreplaces explicit modeling of relevance scores.\nWe can now encode the generated document using\nthe document encoder f. Write,\nE[vqij ] = E[f (g(qij, INST i))] (5)\nFormally, g de\ufb01nes a probability distribution based\non the chain rule. In this paper, we simply consider\nthe expectation value, assuming the distribution of\nvqij is uni-modal, i.e. the query is not ambiguous.\nThe study of ambiguous queries and diversity is"
+  },
+  {
+    "question": "What is the title of the research paper being referenced?",
+    "answer": "Longllmlingua: Accelerating and enhancing llms in long context scenarios via prompt compression.",
+    "source": "data/papers\\Retrieval-Augmented Generation for Large Language Models- A Survey.pdf",
+    "chunk_text": "\u201cLongllmlingua: Accelerating and enhancing llms in long context\nscenarios via prompt compression,\u201d arXiv preprint arXiv:2310.06839 ,\n2023.\n[102] V . Karpukhin, B. O \u02d8guz, S. Min, P. Lewis, L. Wu, S. Edunov, D. Chen,\nand W.-t. Yih, \u201cDense passage retrieval for open-domain question\nanswering,\u201d arXiv preprint arXiv:2004.04906 , 2020.\n[103] Y . Ma, Y . Cao, Y . Hong, and A. Sun, \u201cLarge language model is\nnot a good few-shot information extractor, but a good reranker for"
+  },
+  {
+    "question": "What is the title of the 2020 research paper mentioned in the text?",
+    "answer": "Adapterdrop: On the efficiency of adapters in transformers",
+    "source": "data/papers\\LoRA.pdf",
+    "chunk_text": "residual adapters. arXiv:1705.08045 [cs, stat], November 2017. URL http://arxiv.org/\nabs/1705.08045. arXiv: 1705.08045.\nAndreas R \u00a8uckl\u00b4e, Gregor Geigle, Max Glockner, Tilman Beck, Jonas Pfeiffer, Nils Reimers, and\nIryna Gurevych. Adapterdrop: On the ef\ufb01ciency of adapters in transformers, 2020.\nTara N Sainath, Brian Kingsbury, Vikas Sindhwani, Ebru Arisoy, and Bhuvana Ramabhadran. Low-\nrank matrix factorization for deep neural network training with high-dimensional output targets."
+  },
+  {
+    "question": "What is the title of the second research paper mentioned in the text?",
+    "answer": "Long-short transformer: E\ufb03cient transformers for language and vision.",
+    "source": "data/papers\\FlashAttention.pdf",
+    "chunk_text": "[93] Shuangfei Zhai, Walter Talbott, Nitish Srivastava, Chen Huang, Hanlin Goh, Ruixiang Zhang, and Josh\nSusskind. An attention free transformer.arXiv preprint arXiv:2105.14103, 2021.\n[94] Chen Zhu, Wei Ping, Chaowei Xiao, Mohammad Shoeybi, Tom Goldstein, Anima Anandkumar, and\nBryan Catanzaro. Long-short transformer: E\ufb03cient transformers for language and vision.Advances in\nNeural Information Processing Systems, 34, 2021.\n16"
+  },
+  {
+    "question": "Were any language models fine-tuned in the process of writing this paper?",
+    "answer": "No language models were fine-tuned in the process of writing this paper.",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "experiments on commonsense reasoning underscored how the linguistic nature of chain-of-thought\nreasoning makes it generally applicable (Section 4). Finally, we showed that for symbolic reasoning,\nchain-of-thought prompting facilitates OOD generalization to longer sequence lengths (Section 5). In\nall experiments, chain-of-thought reasoning is elicited simply by prompting an off-the-shelf language\nmodel. No language models were \ufb01netuned in the process of writing this paper."
+  },
+  {
+    "question": "What is the title of the paper by Kelvin Guu et al.?",
+    "answer": "REALM: Retrieval-augmented language model pre-training.",
+    "source": "data/papers\\RAG.pdf",
+    "chunk_text": "[20] Kelvin Guu, Kenton Lee, Zora Tung, Panupong Pasupat, and Ming-Wei Chang. REALM:\nRetrieval-augmented language model pre-training. ArXiv, abs/2002.08909, 2020. URL https:\n//arxiv.org/abs/2002.08909.\n[21] Tatsunori B Hashimoto, Kelvin Guu, Yonatan Oren, and Percy S Liang. A\nretrieve-and-edit framework for predicting structured outputs. In S. Bengio,\nH. Wallach, H. Larochelle, K. Grauman, N. Cesa-Bianchi, and R. Garnett, ed-\nitors, Advances in Neural Information Processing Systems 31 , pages 10"
+  },
+  {
+    "question": "Where do queries and self-attention layers in the decoder attend to?",
+    "answer": "All positions in the previous layer of the encoder and all positions in the decoder up to and including that position.",
+    "source": "data/papers\\Attention Is All You Need.pdf",
+    "chunk_text": "and queries come from the same place, in this case, the output of the previous layer in the\nencoder. Each position in the encoder can attend to all positions in the previous layer of the\nencoder.\n\u2022 Similarly, self-attention layers in the decoder allow each position in the decoder to attend to\nall positions in the decoder up to and including that position. We need to prevent leftward\ninformation flow in the decoder to preserve the auto-regressive property. We implement this"
+  },
+  {
+    "question": "What is the size of the inputs loaded from HBM at each step of the standard attention backward pass?",
+    "answer": "The size of the inputs loaded from HBM at each step is either \ud835\udc41 \ud835\udc51 or \ud835\udc41 2.",
+    "source": "data/papers\\FlashAttention.pdf",
+    "chunk_text": "We \ufb01rst analyze the IO complexity of standard attention backward pass. The inputsQ\u0096 K\u0096 V\u0096 dO2 R\ud835\udc41\u0002\ud835\udc51\nreside in HBM, and the at the end of the algorithm the outputsdQ\u0096 dK\u0096 dV2 R\ud835\udc41\u0002\ud835\udc51 are written to HBM.\nAt each step of the standard attention backward pass, one needs to load inputs of size\ud835\udc41 \ud835\udc51 or \ud835\udc41 2 from\nHBM, and needs to write the outputs of size\ud835\udc41 2 or \ud835\udc41 \ud835\udc51 to HBM. This incurs\u0398\u00b9\ud835\udc41 \ud835\udc51\u00b8 \ud835\udc41 2\u00ba HBM accesses.\nWe now analyze the IO complexity ofFlashAttentionbackward pass."
+  },
+  {
+    "question": "What actions do the authors take to facilitate reproducibility?",
+    "answer": "The authors provide the exact input prompts for all tasks and conduct experiments using off-the-shelf language models.",
+    "source": "data/papers\\Chain of Thought.pdf",
+    "chunk_text": "results in Appendix B.\nV1\u2192 V2. Added PaLM results (V1 only had LaMDA).\nE.1 Reproducibility Statement\nAs our results make use of two sets of large language models that is not publicly available, we take\nthe following actions to facilitate reproducibility. First, we provide the exact input prompts for all\ntasks in Table 20\u2013Table 27 in Appendix G (and emphasize that we do not perform any \ufb01netuning and\nonly apply prompting to off-the-shelf language models). Second, we conduct experiments using the"
+  },
+  {
+    "question": "What is the title of the 2018 research paper by Taku Kudo and John Richardson?",
+    "answer": "Sentencepiece: A simple and language independent subword tokenizer and detokenizer for neural text processing.",
+    "source": "data/papers\\LLaMa.pdf",
+    "chunk_text": "Shoeybi, and Bryan Catanzaro. 2022. Reducing ac-\ntivation recomputation in large transformer models.\narXiv preprint arXiv:2205.05198.\nTaku Kudo and John Richardson. 2018. Sentencepiece:\nA simple and language independent subword tok-\nenizer and detokenizer for neural text processing.\narXiv preprint arXiv:1808.06226.\nKeita Kurita, Nidhi Vyas, Ayush Pareek, Alan W Black,\nand Yulia Tsvetkov. 2019. Quantifying social bi-\nases in contextual word representations. In 1st ACL"
+  },
+  {
+    "question": "How many people are thanked for providing feedback on this paper?",
+    "answer": "At least 17 people are thanked for providing feedback on this paper.",
+    "source": "data/papers\\Training language models to follow instructions with human feedback.pdf",
+    "chunk_text": "Irina Raicu, Subbu Vincent, Varoon Mathur, Kate Crawford, Su Lin Blodgett, Bertie Vidgen, and Paul\nR\u00f6ttger for discussions and feedback on our approach. Finally, we thank Sam Bowman, Matthew\nRahtz, Ben Mann, Liam Fedus, Helen Ngo, Josh Achiam, Leo Gao, Jared Kaplan, Cathy Yeh, Miles\nBrundage, Gillian Had\ufb01eld, Cooper Raterink, Gretchen Krueger, Tyna Eloundou, Rafal Jakubanis,\nand Steven Adler for providing feedback on this paper. We\u2019d also like to thank Owain Evans and"
+  },
+  {
+    "question": "What is the main difference in performance between Mixtral and Llama 2 70B on reading comprehension benchmarks?",
+    "answer": "Mixtral uses 5x lower active parameters than Llama 2 70B on reading comprehension benchmarks.",
+    "source": "data/papers\\Mixtral of Experts.pdf",
+    "chunk_text": "math and code for Mistral (7B/8x7B) vs Llama 2 (7B/13B/70B). Mixtral largely outperforms Llama 2 70B\non all benchmarks, except on reading comprehension benchmarks while using 5x lower active parameters. It\nis also vastly superior to Llama 2 70B on code and math.\nDetailed results for Mixtral, Mistral 7B and Llama 2 7B/13B/70B and Llama 1 34B2 are reported\nin Table 2. Figure 2 compares the performance of Mixtral with the Llama models in different"
+  },
+  {
+    "question": "What is a common mistake when considering the normal force and weight of an object on a table?",
+    "answer": "Assuming the normal force and weight are action-reaction force pairs.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "prevents it from sinking through the table and requires that the table is\nsturdy enough to deliver this normal force without breaking. However, it\nis easy to assume that the normal force and weight are action-reaction\nforce pairs (a common mistake). In this case, the normal force and\nweight need to be equal in magnitude to explain why there is no upward\nacceleration of the object. For example, a ball that bounces upwards\naccelerates upwards because the normal force acting on the ball is larger"
+  },
+  {
+    "question": "What is the primary goal of pre-training BERT?",
+    "answer": "To pre-train deep bidirectional representations from unlabeled text.",
+    "source": "data/papers\\BERT.pdf",
+    "chunk_text": "ford et al., 2018), BERT is designed to pre-\ntrain deep bidirectional representations from\nunlabeled text by jointly conditioning on both\nleft and right context in all layers. As a re-\nsult, the pre-trained BERT model can be \ufb01ne-\ntuned with just one additional output layer\nto create state-of-the-art models for a wide\nrange of tasks, such as question answering and\nlanguage inference, without substantial task-\nspeci\ufb01c architecture modi\ufb01cations.\nBERT is conceptually simple and empirically"
+  },
+  {
+    "question": "What type of setup are the models being tested in?",
+    "answer": "An experimental setup where they have been primed to talk about race.",
+    "source": "data/papers\\Language Models are Few-Shot Learners.pdf",
+    "chunk_text": "focused on racial features; these results are not from the models talking about race in the wild but talking about race in\nan experimental setup where they have been primed to do so. Additionally, since we are measuring sentiment by simply\nlooking at word co-occurrences, the resulting sentiment can re\ufb02ect socio-historical factors - for instance, text relating to\na discussion of slavery will frequently have a negative sentiment, which may lead to a demographic being associated"
+  }
+]
