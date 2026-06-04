@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+.venv/
+
+# Secrets
+.env
+
+# Data / artifacts (large / generated)
+data/papers/
+data/vectorstore/
+results/
+
+# IDE
+.vscode/
+.idea/
