@@ -1,7 +1,7 @@
 import os
 import faiss
 from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from app.ingest import load_papers, chunk_documents
 
 VECTORSTORE_PATH = "data/vectorstore"
