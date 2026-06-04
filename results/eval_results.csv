@@ -1,0 +1,80 @@
+question,ground_truth,generated_answer,groundedness_score,reasoning,retrieval_score,best_chunk_score,question_relevance
+What was the value of α chosen for the dataset?,α = 9,I don't have enough information to answer this question.,1.0,1 out of 1 claims supported,0.13109350204467773,0.22493517398834229,0.3572952151298523
+What type of instruction-following model would combine both types of datasets?,The broadest type instruction-following model would combine both types of datasets.,The broadest type of instruction-following model would combine both types of datasets.,1.0,1 out of 1 claims supported,0.504978358745575,0.6353367567062378,0.5260787010192871
+What is one path forward for training AI models?,"Training models that can be conditioned on the preferences of certain groups, or that can be easily fine-tuned or prompted to represent different groups.","One path forward for training AI models is to train single, large-scale models and then create more efficient versions of them for use in appropriate contexts.",1.0,1 out of 1 claims supported,0.28796690702438354,0.3555842638015747,0.49902087450027466
+What is the title of the paper by Kelvin Guu et al.?,REALM: Retrieval-augmented language model pre-training.,I don't have enough information to answer this question.,1.0,1 out of 1 claims supported,0.1554201990365982,0.20077146589756012,0.3670518696308136
+What is the maximum number of episodes found helpful for training the 1.3B model?,256k episodes,"Using the 1.3B model, we did not find it helpful to train more than 256k episodes.",1.0,1 out of 1 claims supported,0.344279408454895,0.44682449102401733,0.517910361289978
+When did Ignatius write his letter to the Magnesians?,ca. 110.,Ignatius wrote his letter to the Magnesians ca. 110.,0.0,Evaluation failed: Expecting value: line 1 column 1 (char 0),0.057196587324142456,0.1221410259604454,0.2854312062263489
+What is the maximum speed up achieved by GPT-2 small and medium using FlashAttention compared to Huggingface implementation?,Up to 3 times speed up.,"According to Table 2, the maximum speed up achieved by GPT-2 small using FlashAttention compared to Huggingface implementation is 3.5, and the maximum speed up achieved by GPT-2 medium using FlashAttention compared to Huggingface implementation is 3.0.",1.0,2 out of 2 claims supported,0.22880834341049194,0.29902583360671997,0.6599297523498535
+What is the original checkpoint size before adaptation?,350GB,I don't have enough information to answer this question.,0.0,0 out of 1 claims supported,0.2193887084722519,0.46986091136932373,0.4944189786911011
+Were any language models fine-tuned in the process of writing this paper?,No language models were fine-tuned in the process of writing this paper.,I don't have enough information to answer this question.,1.0,1 out of 1 claims supported,0.4097033143043518,0.41644251346588135,0.6279882192611694
+What is the opposite of effective delegation in management leadership?,"Micromanagement, where a manager provides too much control.","Micromanagement, where a manager provides too much input and control over the tasks delegated to their team members.",1.0,1 out of 1 claims supported,0.4064207673072815,0.5789796710014343,0.5547248721122742
+What is the URL of the paper 'A knowledge-grounded neural conversation model'?,https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16710.,I don't have enough information to answer this question.,1.0,1 out of 1 claims supported,0.17377731204032898,0.23090486228466034,0.5266387462615967
+What is the goal of the proposed attention algorithm?,To reduce the amount of HBM accesses to sub-quadratic in N.,I don't have enough information to answer this question.,0.0,0 out of 0 claims supported,0.21137307584285736,0.3878827691078186,0.6502989530563354
+What is the definition of 'true' considered by Lin et al. in the TruthfulQA model?,Literal truth about the real world.,"The definition of ""true"" considered by Lin et al. in the TruthfulQA model is ""literal truth about the real world"", and not claims that are only true in the context of a belief system or tradition.",1.0,1 out of 1 claims supported,0.4030904173851013,0.4454948306083679,0.4786200523376465
+What is the name of the error category mentioned in the text?,symbol mapping error,"The error categories mentioned in the text are:
+
+1. Semantic understanding
+2. One step missing error
+3. Other (which includes hallucinations, repetitive outputs, and symbol mapping errors)",1.0,3 out of 3 claims supported,0.24603796005249023,0.3079509735107422,0.506109356880188
+What is the range of accuracy of GPT-3 on SST-2 when varying the permutation of few-shot exemplars?,From near chance (54.3%) to near state of the art (93.4%),"According to the context, the range of accuracy of GPT-3 on SST-2 when varying the permutation of few-shot exemplars is from near chance (54.3%) to near SOTA (93.4%).",1.0,1 out of 1 claims supported,0.2929598093032837,0.3325844407081604,0.6610736846923828
+In which year was the paper 'Rethinking attention with performers' published?,2020,"The paper 'Rethinking attention with performers' was published in 2020, as mentioned in the context: ""In International Conference on Learning Representations (ICLR), 2020.""",1.0,1 out of 1 claims supported,0.08898797631263733,0.11622752249240875,0.3647267818450928
+How many times smaller is LLaMA-13B compared to GPT-3?,10 times smaller,"According to the context, LLaMA-13B is 10× smaller than GPT-3.",1.0,1 out of 1 claims supported,0.12408144026994705,0.1953728199005127,0.5910021066665649
+What is the name of the figure that shows the evolution of performance on question answering and common sense reasoning during training?,Figure 2,I don't have enough information to answer this question.,1.0,1 out of 1 claims supported,0.10425124317407608,0.145627960562706,0.5503847002983093
+How has the task of closed book question answering been normally approached?,Using an information retrieval system to find relevant text in combination with a model which learns to generate an answer given the question and the retrieved text.,The task of closed book question answering has normally been approached by using an information retrieval system to find relevant text in combination with a model which learns to generate an answer given the question and the retrieved text.,1.0,1 out of 1 claims supported,0.5662469267845154,0.7340800762176514,0.5884504914283752
+What is the sparsity pattern used in the context of attention?,The butterfly pattern is used as the sparsity pattern.,The sparsity pattern used in the context of attention is the butterfly pattern.,1.0,1 out of 1 claims supported,0.2021244466304779,0.2994135916233063,0.5340734124183655
+What is the title of the 2021 research paper by Aslanides et al.?,"Scaling language models: Methods, analysis & insights from training Gopher.",I don't have enough information to answer this question.,1.0,1 out of 1 claims supported,0.14728358387947083,0.18489041924476624,0.41061773896217346
+What is the year of publication for the paper 'Scaling laws for neural language models'?,2020,2020.,1.0,1 out of 1 claims supported,0.11960954964160919,0.22394295036792755,0.6266939640045166
+What is a common mistake when considering the normal force and weight of an object on a table?,Assuming the normal force and weight are action-reaction force pairs.,A common mistake when considering the normal force and weight of an object on a table is to assume that the normal force and weight are action-reaction force pairs and that they need to be equal in magnitude to explain why there is no upward acceleration of the object.,1.0,1 out of 1 claims supported,0.39663809537887573,0.5617518424987793,0.5576382875442505
+What were the initial priorities of the user in the model's criteria?,The user prioritized helpfulness above truthfulness and harmlessness.,I don't have enough information to answer this question.,1.0,1 out of 1 claims supported,0.20774412155151367,0.28102606534957886,0.4693824052810669
+How is the average per-token log probability calculated?,"According to the text, the average per-token log probability is calculated at T = 1.",I don't have enough information to answer this question.,1.0,1 out of 1 claims supported,0.3981825113296509,0.4317626357078552,0.4035857915878296
+What is the conditional probability of the document z being 'Fermat' given x?,1.0,"p(y = “Fermat” | x, z) = 1.0",1.0,1 out of 1 claims supported,0.05610933527350426,0.09347586333751678,0.40133851766586304
+What is the title of the second research paper mentioned in the text?,Long-short transformer: Eﬃcient transformers for language and vision.,I don't have enough information to answer this question.,1.0,1 out of 1 claims supported,0.03576340526342392,0.06482726335525513,0.4148597717285156
+Which age group had the second most people?,25 to 44,25 to 44,0.0,Evaluation failed: Expecting value: line 1 column 1 (char 0),0.15437665581703186,0.29070961475372314,0.45026567578315735
+What is the section title of the appendix that contains details about SELF-RAG Inference?,A.3 SELF-RAG Inference,I don't have enough information to answer this question.,1.0,0 out of 0 claims supported,0.5943375825881958,0.6478681564331055,0.49973398447036743
+"For large enough block size, what is the runtime bottleneck?","Other factors, such as arithmetic operations.","For large enough block size (beyond 256), the runtime is then bottlenecked by other factors (e.g., arithmetic operations).",1.0,1 out of 1 claims supported,0.18158236145973206,0.2298113852739334,0.5876972079277039
+What is the perplexity score of Perplexity.ai?,71.2,I don't have enough information to answer this question.,1.0,0 out of 0 claims supported,0.14081838726997375,0.19101658463478088,0.39759117364883423
+What percentage of examples were flagged by the overlap analysis?,45%,"According to the context, the overlap analysis flagged the following percentages of examples:
+
+- PIQA: 29%
+- Winograd: 45%",1.0,2 out of 2 claims supported,0.11916612833738327,0.17426364123821259,0.5659123659133911
+What is the year of publication for the paper 'XLA: Compiling machine learning for peak performance'?,2020,2020.,1.0,1 out of 1 claims supported,0.1544133424758911,0.18968886137008667,0.4652637541294098
+What percentage of human assessments found BART to be better than other models in terms of factuality?,7.1%,7.1%,1.0,1 out of 1 claims supported,0.1675877571105957,0.218075692653656,0.5282074213027954
+What is the assumption made about the distribution of vqij in this paper?,The distribution of vqij is assumed to be uni-modal.,"º2 R𝑁  ℓ ¹ 𝑗º
+𝑚² 𝑗º = rowmax¹S:: 𝑗º2 R𝑁  ℓ ¹ 𝑗º = rowsum¹exp¹S:: 𝑗º2 R𝑁  ℓ ¹ 𝑗º
+𝑚³ 𝑗º = rowmax¹S:: 𝑗º2 R𝑁  ℓ ¹ 𝑗º = rowsum¹exp¹S:: 𝑗º2 R𝑁  ℓ ¹ 𝑗º
+𝑚⁴ 𝑗º = rowmax¹S:: 𝑗º2 R𝑁  ℓ ¹ 𝑗º = rowsum¹exp¹S:: 𝑗º2 R𝑁  ℓ ¹ 𝑗º
+the document z∗ causes the maximum value in the row of S:: 𝑗º2 R𝑁  ℓ ¹ 𝑗º to be greater than 1, then
+the gradient ∇ f (x, z∗) is not computed correctly.",0.0,Evaluation failed: Expecting value: line 1 column 1 (char 0),0.2583582401275635,0.28764739632606506,0.3711949586868286
+Who co-authored the 2022 paper 'Bloom: A 176b-parameter open-access multilingual language model'?,Matthias Gallé,"Yvon, Matthias Gallé, et al.",1.0,1 out of 1 claims supported,0.07250520586967468,0.09497286379337311,0.5840981602668762
+In what year was the paper 'Recursive deep models for semantic compositionality over a sentiment treebank' published?,2013,The paper 'Recursive deep models for semantic compositionality over a sentiment treebank' was published in 2013.,1.0,1 out of 1 claims supported,0.09718228876590729,0.1043238639831543,0.7798707485198975
+What is a limitation of rationale-augmented training and finetuning methods?,It is costly to create a large set of high quality rationales.,"It is costly to create a large set of high quality rationales, which is much more complicated than simple input–output pairs used in normal machine learning.",1.0,1 out of 1 claims supported,0.19698083400726318,0.37292349338531494,0.5067952275276184
+How many respondents participated in the labeler satisfaction survey?,19 respondents participated in the labeler satisfaction survey.,"I don't have enough information to answer this question.
+
+However, based on the context, we can infer that the number of respondents is likely 36, as mentioned in the sentence ""Overall, we ﬁnd that our labelers are quite 36"".",0.5,1 out of 2 claims supported,0.559777021408081,0.5920553803443909,0.5790058374404907
+Has distillation been tried at the scale of hundreds of billions of parameters?,"No, according to the text.","Yes, distillation has not been tried at the scale of hundreds of billions of parameters, according to the text.",0.0,0 out of 1 claims supported,0.0821419209241867,0.13147377967834473,0.444418728351593
+What is the main difference in performance between Mixtral and Llama 2 70B on reading comprehension benchmarks?,Mixtral uses 5x lower active parameters than Llama 2 70B on reading comprehension benchmarks.,"I don't have enough information to answer this question.
+
+However, I can tell you that Mixtral largely outperforms Llama 2 70B on all benchmarks, except on reading comprehension benchmarks while using 5x lower active parameters.",1.0,1 out of 1 claims supported,0.7353790998458862,0.7633631229400635,0.6912712454795837
+What is the precision of the SELF-RAG model on the 50k dataset?,45.5,I don't have enough information to answer this question.,1.0,1 out of 1 claims supported,0.04879191145300865,0.11057833582162857,0.5527430772781372
+What is the name of the retrieval model that was fine-tuned on MS-MARCO?,mContrieverFT and ContrieverFT,ContrieverFT and mContrieverFT.,1.0,1 out of 1 claims supported,0.17490413784980774,0.365790456533432,0.6122359037399292
+Where was the 2017 Conference on Empirical Methods in Natural Language Processing held?,"Copenhagen, Denmark",I don't have enough information to answer this question.,1.0,1 out of 1 claims supported,0.0015850472263991833,0.023764900863170624,0.6817509531974792
+How many instances were collected for the 'Retrieve' category?,"1,2594",I don't have enough information to answer this question.,1.0,1 out of 1 claims supported,-0.003002842888236046,0.02221938595175743,0.4363088607788086
+What is the main difference between REALM and the retrieve-and-edit framework proposed by Hashimoto et al. (2018)?,"REALM learns for itself which texts are most relevant, whereas the retrieve-and-edit framework conditions on text with high lexical overlap.",I don't have enough information to answer this question.,0.0,0 out of 1 claims supported,0.7222164869308472,0.8394414186477661,0.5663225650787354
+Who are the authors of the paper 'LaMDA: Language models for dialog applications'?,"The authors are Romal Thoppilan, Daniel De Freitas, Jamie Hall, Noam Shazeer, Apoorv Kulshreshtha, Heng-Tze Cheng, Alicia Jin, Taylor Bos, Leslie Baker, Yu Du, et al.","The authors of the paper 'LaMDA: Language models for dialog applications' are:
+
+1. Romal Thoppilan
+2. Daniel De Freitas
+3. Jamie Hall
+4. Noam Shazeer
+5. Apoorv Kulshreshtha
+6. Heng-Tze Cheng
+7. Alicia Jin
+8. Taylor Bos
+9. Leslie Baker
+10. Yu Du",1.0,10 out of 10 claims supported,0.22013327479362488,0.22749583423137665,0.6260126233100891
+What type of task is the example given in the text?,A word analogy task.,The example given in the text is a sequence-level task.,1.0,1 out of 1 claims supported,0.36523011326789856,0.41954275965690613,0.564871072769165
+How many authors are listed in the paper [GWC+18]?,"Four authors are listed in the paper [GWC+18], namely Jiatao Gu, Yong Wang, Yun Chen, and Kyunghyun Cho.","I don't have enough information to answer this question.
+
+The context does not mention the paper [GWC+18] or provide a list of authors for that paper.",1.0,1 out of 1 claims supported,0.30302751064300537,0.3947983980178833,0.379438191652298
+What year did Brants et al. show the benefits of using language models trained on 2 trillion tokens?,2007,2007.,1.0,1 out of 1 claims supported,0.0790850967168808,0.10871579498052597,0.6157721281051636
