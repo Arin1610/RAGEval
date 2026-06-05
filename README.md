@@ -1,8 +1,7 @@
-```markdown
 # RAGEval 🔍
 ### RAG Pipeline with Hallucination Detection & Evaluation Framework
 
-> A production-grade RAG system built over 15 AI research papers with a custom evaluation framework measuring hallucination rate, retrieval precision, and groundedness score — directly aligned with real-world LLM evaluation challenges.
+> A production-grade RAG system built over 15 AI research papers with a custom evaluation framework measuring hallucination rate, retrieval precision, and groundedness score.
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![LangChain](https://img.shields.io/badge/LangChain-1.3-green)
@@ -27,7 +26,8 @@ RAGEval solves this by providing a full evaluation framework on top of the RAG p
 ---
 
 ## Architecture
-```
+
+~~~
 ┌─────────────────────────────────────────┐
 │            RAGEval Pipeline             │
 │                                         │
@@ -50,7 +50,7 @@ RAGEval solves this by providing a full evaluation framework on top of the RAG p
 │              │                          │
 │  Streamlit Evaluation Dashboard         │
 └─────────────────────────────────────────┘
-```
+~~~
 
 ---
 
@@ -110,39 +110,39 @@ Identified LLM-as-judge scoring instability across model sizes — smaller model
 
 ## Local Setup
 
-```bash
+~~~bash
 git clone https://github.com/Arin1610/rageval.git
 cd rageval
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
-```
+~~~
 
 Add `.env` file:
-```
+~~~
 GROQ_API_KEY=your_key_here
-```
+~~~
 
 Build vectorstore:
-```bash
+~~~bash
 python -m app.retriever
-```
+~~~
 
 Run evaluation:
-```bash
+~~~bash
 python -m eval.run_eval
-```
+~~~
 
 Launch dashboard:
-```bash
+~~~bash
 streamlit run dashboard/app.py
-```
+~~~
 
 ---
 
 ## Project Structure
 
-```
+~~~
 rageval/
 ├── app/
 │   ├── ingest.py         ← PDF loading + chunking
@@ -161,9 +161,7 @@ rageval/
 ├── results/
 │   └── eval_results.csv  ← Evaluation output
 └── requirements.txt
-```
+~~~
 
 ---
 
-## Key Insight
-This project directly supports my MSc thesis research on **Explainability and Trustworthiness in RAG Systems** at Dublin City University, exploring how evaluation frameworks can improve reliability of LLM-generated outputs in production.
