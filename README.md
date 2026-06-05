@@ -37,7 +37,7 @@ RAGEval solves this by providing a full evaluation framework on top of the RAG p
 │  (PyPDF + RecursiveCharacterSplitter)   │
 │              │                          │
 │  FAISS Vectorstore                      │
-│  (HuggingFace all-MiniLM-L6-v2)        │
+│  (HuggingFace all-MiniLM-L6-v2)         │
 │              │                          │
 │  RAG Chain (LangChain + Groq)           │
 │              │                          │
